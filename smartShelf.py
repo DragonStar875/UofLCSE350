@@ -10,44 +10,80 @@ shoppingList = pd.read_csv('shoppingList.csv')
 allGroceries = pd.read_csv('allGroceries.csv')
 
 """
-set_threshold needs to edit items in userPantry such that the threshold
-
-
+Considering a while loop for the main menu, such that application only terminates after selecting the option to exit and runs
+closeout()
 """
 
 
+
 def threshold_checker(userPantry):
-    for row in userPantry.itertuples():
-        #writing in pseudo before i forget
-        #if item in userPantry qty on_hand < threshold, return item name.
-        #consider an else that returns nothing if there's nothing < threshold
-        if userPantry:
-            print('meow')
+    try:
+        food_name = str(food_name)
+        result = userPantry.loc[userPantry['item_name'] == food_name,
+                                ['protein', 'fat', 'calories', 'carbohydrates', 'sugar']]
+        if result.empty:
+            return f"No nutrition info found for '{food_name}'."
+        return result.to_dict('records')
+    except Exception as e:
+        return f"Error: {e}"
 
 
-def set_threshold(userPantry, food_name, threshold):
-    return
-
+"""
+Function needs a try/catch for error handling if food_name not in userPantry 
+food_name must be of type string, consider a toString function for all food_name cases
+"""
 def get_nutrition(userPantry, food_name):
     return userPantry.loc[userPantry['item_name'] == food_name, ['protein', 'fat', 'calories', 'carbohydrates', 'sugar']]
 
 
+
 def get_price(allGroceries, food_name):
-    return allGroceries.loc[allGroceries['item_name' == food_name, ['food_name','quantity', 'price']]]
+    result = allGroceries.loc[allGroceries['item_name'] == food_name, ['food_name','quantity', 'price']]
+    if result.empty:
+        return "Item cannot be found, please check your spelling"
+    return result.to_dict('records')
 
+
+
+"""
+Needs some kind of formatting on the return value so it doesn't barf an ugly pandas dataFrame or a dictionary
+"""
 def get_shoppingList(shoppingList):
-    return shoppingList
-
-
-#update shoppingList needs to write new item(s0 to shopingList dataframe
+    return shoppingList.to_dict('records')
+"""
+update shoppingList needs to write new item(s) to shoppingList dataframe
+consider **kwargs
+"""
 def update_shoppingList(shoppingList, food_name):
     return shoppingList
 
+"""
+Function needs some kind of success/fail return value
+and a try/catch block for critical_value, that determines if it is an int, non-negative, and not preposterously large 
+"""
+def set_critical(userPantry, food_name, critical_value):
+    userPantry.loc[userPantry['item_name'] == food_name, 'critical_threshold'] = critical_value
+    return
+
+
+"""
+Needs some kind of formatting on the return value so it doesn't barf an ugly pandas dataFrame
+"""
 def get_userPantry(userPantry):
-    return userPantry
+    return userPantry.to_dict('records')
 
 
 
-#closeout must save any changes made to userPantry and shoppingList
+"""
+closeout must save any changes made to userPantry and shoppingList
+minor error-handling here
+"""
 def closeout(userPantry, shoppingList):
+    try:
+        userPantry.to_csv("userPantry.csv", index=False)
+        shoppingList.to_csv("shoppingList.csv", index=False)
+        print("Changes successfully saved.")
+    except Exception as e:
+        print(f"Error saving data: {e}")
     exit()
+
