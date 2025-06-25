@@ -17,15 +17,10 @@ closeout()
 
 
 def threshold_checker(userPantry):
-    try:
-        food_name = str(food_name)
-        result = userPantry.loc[userPantry['item_name'] == food_name,
-                                ['protein', 'fat', 'calories', 'carbohydrates', 'sugar']]
-        if result.empty:
-            return f"No nutrition info found for '{food_name}'."
-        return result.to_dict('records')
-    except Exception as e:
-        return f"Error: {e}"
+    below_threshold = userPantry[userPantry['quantity'] < userPantry['critical_threshold']]
+    if below_threshold.empty:
+        return None
+    return below_threshold[['item_name', 'quantity', 'critical_threshold']].to_dict('records')
 
 
 """
