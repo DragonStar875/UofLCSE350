@@ -43,12 +43,14 @@ def get_price(allGroceries, food_name):
 
 """
 Needs some kind of formatting on the return value so it doesn't barf an ugly pandas dataFrame or a dictionary
+
 """
 def get_shoppingList(shoppingList):
     return shoppingList.to_dict('records')
 """
 update shoppingList needs to write new item(s) to shoppingList dataframe
-consider **kwargs
+consider **kwargs for multiple inputs
+And should enumerate an additional column each time for rolling_total, as a sum of the price of each subsequent item
 """
 def update_shoppingList(shoppingList, food_name):
     return shoppingList

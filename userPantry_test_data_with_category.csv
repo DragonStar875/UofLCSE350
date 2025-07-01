@@ -1,0 +1,31 @@
+item_name,qty,exp_date,threshold,category
+carrot,41,2025-09-17,17,produce
+milk,22,2025-09-03,12,dairy
+eggs,31,2025-07-11,18,dairy
+cheddar cheese,26,2025-08-11,20,dairy
+yogurt,14,2025-09-18,27,dairy
+spinach,16,2025-07-31,8,produce
+apple,44,2025-07-29,29,produce
+banana,44,2025-07-06,5,produce
+bread,10,2025-08-01,18,grains
+chicken breast,10,2025-07-26,6,meat
+ground beef,40,2025-07-07,7,meat
+tofu,19,2025-07-26,12,protein
+black beans,50,2025-08-08,5,legumes
+lentils,3,2025-07-31,9,legumes
+rice,1,2025-08-10,10,grains
+pasta,32,2025-07-07,26,grains
+broccoli,16,2025-08-26,24,produce
+cauliflower,41,2025-07-22,6,produce
+potatoes,48,2025-07-11,10,produce
+onions,27,2025-09-05,18,produce
+garlic,12,2025-09-07,29,produce
+olive oil,42,2025-09-20,14,fats
+butter,33,2025-09-13,28,dairy
+cream,34,2025-08-30,20,dairy
+orange juice,1,2025-07-12,25,beverages
+strawberries,34,2025-08-29,20,produce
+blueberries,36,2025-07-28,22,produce
+zucchini,46,2025-07-16,9,produce
+cucumber,2,2025-09-03,11,produce
+peanut butter,29,2025-09-27,5,fats
