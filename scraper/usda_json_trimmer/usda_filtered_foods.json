@@ -1,1941 +1,3257 @@
 [
   {
     "description": "Hummus, commercial",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 2.0,
+    "foodPortionUnit": "tbsp",
     "Protein": "7.35 g",
     "Total lipid (fat)": "17.1 g",
-    "Carbohydrate, by difference": "14.9 g"
+    "Carbohydrate, by difference": "14.9 g",
+    "price": 0.5
   },
   {
     "description": "Tomatoes, grape, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 5.0,
+    "foodPortionUnit": "tomatoes",
     "Total lipid (fat)": "0.63 g",
     "Protein": "0.83 g",
-    "Carbohydrate, by difference": "5.51 g"
+    "Carbohydrate, by difference": "5.51 g",
+    "price": 0.4
   },
   {
     "description": "Beans, snap, green, canned, regular pack, drained solids",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Total lipid (fat)": "0.39 g",
     "Carbohydrate, by difference": "4.11 g",
-    "Protein": "1.04 g"
+    "Protein": "1.04 g",
+    "price": 0.4
   },
   {
     "description": "Frankfurter, beef, unheated",
+    "category": "Sausages and Luncheon Meats",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "piece",
     "Total lipid (fat)": "28.0 g",
     "Carbohydrate, by difference": "2.89 g",
-    "Protein": "11.7 g"
+    "Protein": "11.7 g",
+    "price": null
   },
   {
     "description": "Nuts, almonds, dry roasted, with salt added",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Total lipid (fat)": "57.8 g",
     "Carbohydrate, by difference": "16.2 g",
-    "Protein": "20.4 g"
+    "Protein": "20.4 g",
+    "price": 1.8
   },
   {
     "description": "Kale, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Protein": "2.92 g",
     "Total lipid (fat)": "1.49 g",
-    "Carbohydrate, by difference": "4.42 g"
+    "Carbohydrate, by difference": "4.42 g",
+    "price": 0.4
   },
   {
     "description": "Egg, whole, raw, frozen, pasteurized",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "oz",
     "Protein": "12.3 g",
     "Total lipid (fat)": "10.3 g",
-    "Carbohydrate, by difference": "0.91 g"
+    "Carbohydrate, by difference": "0.91 g",
+    "price": 1.2
   },
   {
     "description": "Egg, white, raw, frozen, pasteurized",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "oz",
     "Total lipid (fat)": "0.16 g",
     "Carbohydrate, by difference": "0.74 g",
-    "Protein": "10.1 g"
+    "Protein": "10.1 g",
+    "price": 1.2
   },
   {
     "description": "Egg, white, dried",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "tbsp",
     "Protein": "79.9 g",
     "Total lipid (fat)": "0.65 g",
-    "Carbohydrate, by difference": "6.02 g"
+    "Carbohydrate, by difference": "6.02 g",
+    "price": 1.2
   },
   {
     "description": "Onion rings, breaded, par fried, frozen, prepared, heated in oven",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "piece",
     "Total lipid (fat)": "14.4 g",
     "Carbohydrate, by difference": "36.3 g",
-    "Protein": "4.52 g"
+    "Protein": "4.52 g",
+    "price": 0.4
   },
   {
     "description": "Pickles, cucumber, dill or kosher dill",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "spear",
     "Total lipid (fat)": "0.43 g",
     "Carbohydrate, by difference": "1.99 g",
-    "Protein": "0.48 g"
+    "Protein": "0.48 g",
+    "price": 0.4
   },
   {
     "description": "Cheese, parmesan, grated",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "tbsp",
     "Total lipid (fat)": "28.0 g",
     "Carbohydrate, by difference": "12.4 g",
-    "Protein": "29.6 g"
+    "Protein": "29.6 g",
+    "price": 1.2
   },
   {
     "description": "Cheese, pasteurized process, American, vitamin D fortified",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "slice",
     "Protein": "18.0 g",
     "Total lipid (fat)": "30.6 g",
-    "Carbohydrate, by difference": "5.27 g"
+    "Carbohydrate, by difference": "5.27 g",
+    "price": 1.2
   },
   {
     "description": "Grapefruit juice, white, canned or bottled, unsweetened",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Protein": "0.55 g",
     "Total lipid (fat)": "0.7 g",
-    "Carbohydrate, by difference": "7.59 g"
+    "Carbohydrate, by difference": "7.59 g",
+    "price": 0.55
   },
   {
     "description": "Peaches, yellow, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "fruit",
     "Carbohydrate, by difference": "10.1 g",
     "Protein": "0.91 g",
-    "Total lipid (fat)": "0.27 g"
+    "Total lipid (fat)": "0.27 g",
+    "price": 0.55
   },
   {
     "description": "Seeds, sunflower seed kernels, dry roasted, with salt added",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Total lipid (fat)": "56.1 g",
     "Carbohydrate, by difference": "17.1 g",
-    "Protein": "21.0 g"
+    "Protein": "21.0 g",
+    "price": 1.8
   },
   {
     "description": "Bread, white, commercially prepared",
+    "category": "Baked Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "slice",
     "Total lipid (fat)": "3.59 g",
     "Carbohydrate, by difference": "49.2 g",
-    "Protein": "9.43 g"
+    "Protein": "9.43 g",
+    "price": 1.1
   },
   {
     "description": "Kale, frozen, cooked, boiled, drained, without salt",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Total lipid (fat)": "1.21 g",
     "Carbohydrate, by difference": "5.3 g",
-    "Protein": "2.94 g"
+    "Protein": "2.94 g",
+    "price": 0.4
   },
   {
     "description": "Mustard, prepared, yellow",
+    "category": "Spices and Herbs",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Protein": "4.25 g",
     "Total lipid (fat)": "3.38 g",
-    "Carbohydrate, by difference": "5.3 g"
+    "Carbohydrate, by difference": "5.3 g",
+    "price": 3.5
   },
   {
     "description": "Kiwifruit, green, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.44 g",
     "Protein": "1.06 g",
-    "Carbohydrate, by difference": "14.0 g"
+    "Carbohydrate, by difference": "14.0 g",
+    "price": 0.55
   },
   {
     "description": "Nectarines, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "each",
     "Carbohydrate, by difference": "9.18 g",
     "Total lipid (fat)": "0.28 g",
-    "Protein": "1.06 g"
+    "Protein": "1.06 g",
+    "price": 0.55
   },
   {
     "description": "Cheese, cheddar",
+    "category": null,
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Carbohydrate, by difference": "2.44 g",
     "Protein": "23.3 g",
     "Total lipid (fat)": "34.0 g"
   },
   {
     "description": "Cheese, cottage, lowfat, 2% milkfat",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Total lipid (fat)": "2.3 g",
     "Carbohydrate, by difference": "4.31 g",
-    "Protein": "11.0 g"
+    "Protein": "11.0 g",
+    "price": 1.2
   },
   {
     "description": "Cheese, mozzarella, low moisture, part-skim",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Protein": "23.7 g",
     "Total lipid (fat)": "20.4 g",
-    "Carbohydrate, by difference": "4.44 g"
+    "Carbohydrate, by difference": "4.44 g",
+    "price": 1.2
   },
   {
     "description": "Egg, whole, dried",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Protein": "48.1 g",
     "Total lipid (fat)": "39.8 g",
-    "Carbohydrate, by difference": "1.87 g"
+    "Carbohydrate, by difference": "1.87 g",
+    "price": 1.2
   },
   {
     "description": "Egg, yolk, raw, frozen, pasteurized",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "oz",
     "Total lipid (fat)": "25.1 g",
     "Carbohydrate, by difference": "0.59 g",
-    "Protein": "15.6 g"
+    "Protein": "15.6 g",
+    "price": 1.2
   },
   {
     "description": "Egg, yolk, dried",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "tbsp",
     "Total lipid (fat)": "55.5 g",
     "Carbohydrate, by difference": "1.07 g",
-    "Protein": "34.2 g"
+    "Protein": "34.2 g",
+    "price": 1.2
   },
   {
     "description": "Yogurt, Greek, plain, nonfat",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "container",
     "Protein": "10.3 g",
     "Total lipid (fat)": "0.37 g",
-    "Carbohydrate, by difference": "3.64 g"
+    "Carbohydrate, by difference": "3.64 g",
+    "price": 1.2
   },
   {
     "description": "Yogurt, Greek, strawberry, nonfat",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "container",
     "Total lipid (fat)": "0.15 g",
     "Carbohydrate, by difference": "12.2 g",
-    "Protein": "8.06 g"
+    "Protein": "8.06 g",
+    "price": 1.2
   },
   {
     "description": "Oil, coconut",
+    "category": "Fats and Oils",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "tbsp",
     "Protein": "0.0 g",
     "Total lipid (fat)": "99.1 g",
-    "Carbohydrate, by difference": "0.84 g"
+    "Carbohydrate, by difference": "0.84 g",
+    "price": 0.85
   },
   {
     "description": "Chicken, broilers or fryers, drumstick, meat only, cooked, braised",
+    "category": "Poultry Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "drumstick",
     "Protein": "23.9 g",
     "Total lipid (fat)": "5.95 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 1.9
   },
   {
     "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised",
+    "category": "Poultry Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "piece",
     "Total lipid (fat)": "3.24 g",
     "Carbohydrate, by difference": "0.0 g",
-    "Protein": "32.1 g"
+    "Protein": "32.1 g",
+    "price": 1.9
   },
   {
     "description": "Sauce, pasta, spaghetti/marinara, ready-to-serve",
+    "category": "Soups, Sauces, and Gravies",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "serving",
     "Total lipid (fat)": "1.48 g",
     "Carbohydrate, by difference": "8.05 g",
-    "Protein": "1.41 g"
+    "Protein": "1.41 g",
+    "price": 1.0
   },
   {
     "description": "Ham, sliced, pre-packaged, deli meat (96%fat free, water added)",
+    "category": "Sausages and Luncheon Meats",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "slice",
     "Protein": "16.7 g",
     "Total lipid (fat)": "3.73 g",
-    "Carbohydrate, by difference": "0.27 g"
+    "Carbohydrate, by difference": "0.27 g",
+    "price": null
   },
   {
     "description": "Olives, green, Manzanilla, stuffed with pimiento",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "olive",
     "Total lipid (fat)": "12.9 g",
     "Protein": "1.15 g",
-    "Carbohydrate, by difference": "4.96 g"
+    "Carbohydrate, by difference": "4.96 g",
+    "price": 0.55
   },
   {
     "description": "Cookies, oatmeal, soft, with raisins",
+    "category": "Baked Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cookie",
     "Total lipid (fat)": "14.3 g",
     "Protein": "5.79 g",
-    "Carbohydrate, by difference": "69.6 g"
+    "Carbohydrate, by difference": "69.6 g",
+    "price": 1.1
   },
   {
     "description": "Tomatoes, canned, red, ripe, diced",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Total lipid (fat)": "0.5 g",
     "Protein": "0.84 g",
-    "Carbohydrate, by difference": "3.32 g"
+    "Carbohydrate, by difference": "3.32 g",
+    "price": 0.4
   },
   {
     "description": "Fish, haddock, raw",
+    "category": "Finfish and Shellfish Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "fillet",
     "Total lipid (fat)": "0.45 g",
     "Protein": "16.3 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 3.0
   },
   {
     "description": "Fish, pollock, raw",
+    "category": "Finfish and Shellfish Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "fillet",
     "Total lipid (fat)": "0.41 g",
     "Protein": "12.3 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 3.0
   },
   {
     "description": "Fish, tuna, light, canned in water, drained solids",
+    "category": null,
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.94 g",
     "Protein": "19.0 g",
     "Carbohydrate, by difference": "0.08 g"
   },
   {
     "description": "Restaurant, Chinese, fried rice, without meat",
+    "category": "Restaurant Foods",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Total lipid (fat)": "3.19 g",
     "Carbohydrate, by difference": "32.5 g",
-    "Protein": "3.84 g"
+    "Protein": "3.84 g",
+    "price": 2.8
   },
   {
     "description": "Restaurant, Latino, tamale, pork",
+    "category": "Restaurant Foods",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "piece",
     "Protein": "7.38 g",
     "Total lipid (fat)": "9.04 g",
-    "Carbohydrate, by difference": "15.8 g"
+    "Carbohydrate, by difference": "15.8 g",
+    "price": 2.8
   },
   {
     "description": "Restaurant, Latino, pupusas con frijoles (pupusas, bean)",
+    "category": "Restaurant Foods",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "piece",
     "Protein": "5.59 g",
     "Total lipid (fat)": "9.01 g",
-    "Carbohydrate, by difference": "31.5 g"
+    "Carbohydrate, by difference": "31.5 g",
+    "price": 2.8
   },
   {
     "description": "Bread, whole-wheat, commercially prepared",
+    "category": "Baked Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "slice",
     "Total lipid (fat)": "3.55 g",
     "Carbohydrate, by difference": "43.1 g",
-    "Protein": "12.3 g"
+    "Protein": "12.3 g",
+    "price": 1.1
   },
   {
     "description": "Beef, loin, tenderloin roast, separable lean only, boneless, trimmed to 0\" fat, select, cooked, roasted",
+    "category": "Beef Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "roast",
     "Total lipid (fat)": "6.36 g",
     "Carbohydrate, by difference": "0.0 g",
-    "Protein": "27.7 g"
+    "Protein": "27.7 g",
+    "price": 2.5
   },
   {
     "description": "Beef, loin, top loin steak, boneless, lip-on, separable lean only, trimmed to 1/8\" fat, choice, raw",
+    "category": "Beef Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "steak",
     "Total lipid (fat)": "6.39 g",
     "Carbohydrate, by difference": "0.0 g",
-    "Protein": "22.8 g"
+    "Protein": "22.8 g",
+    "price": 2.5
   },
   {
     "description": "Beef, round, eye of round roast, boneless, separable lean only, trimmed to 0\" fat, select, raw",
+    "category": "Beef Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "roast",
     "Protein": "23.4 g",
     "Total lipid (fat)": "2.48 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 2.5
   },
   {
     "description": "Beef, round, top round roast, boneless, separable lean only, trimmed to 0\" fat, select, raw",
+    "category": "Beef Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "roast",
     "Total lipid (fat)": "2.41 g",
     "Carbohydrate, by difference": "0.0 g",
-    "Protein": "23.7 g"
+    "Protein": "23.7 g",
+    "price": 2.5
   },
   {
     "description": "Beef, short loin, porterhouse steak, separable lean only, trimmed to 1/8\" fat, select, raw",
+    "category": "Beef Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "steak",
     "Total lipid (fat)": "5.32 g",
     "Protein": "22.7 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 2.5
   },
   {
     "description": "Beef, short loin, t-bone steak, bone-in, separable lean only, trimmed to 1/8\" fat, choice, cooked, grilled",
+    "category": "Beef Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "steak",
     "Protein": "27.3 g",
     "Total lipid (fat)": "11.4 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 2.5
   },
   {
     "description": "Carrots, frozen, unprepared",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.47 g",
     "Protein": "0.81 g",
-    "Carbohydrate, by difference": "7.92 g"
+    "Carbohydrate, by difference": "7.92 g",
+    "price": 0.4
   },
   {
     "description": "Cheese, dry white, queso seco",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Protein": "24.5 g",
     "Total lipid (fat)": "24.3 g",
-    "Carbohydrate, by difference": "2.07 g"
+    "Carbohydrate, by difference": "2.07 g",
+    "price": 1.2
   },
   {
     "description": "Cheese, ricotta, whole milk",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 0.2,
+    "foodPortionUnit": "cup",
     "Protein": "7.81 g",
     "Total lipid (fat)": "11.0 g",
-    "Carbohydrate, by difference": "6.86 g"
+    "Carbohydrate, by difference": "6.86 g",
+    "price": 1.2
   },
   {
     "description": "Cheese, swiss",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "slice",
     "Total lipid (fat)": "31.0 g",
     "Carbohydrate, by difference": "1.44 g",
-    "Protein": "27.0 g"
+    "Protein": "27.0 g",
+    "price": 1.2
   },
   {
     "description": "Figs, dried, uncooked",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "each",
     "Carbohydrate, by difference": "63.9 g",
     "Protein": "3.3 g",
-    "Total lipid (fat)": "0.92 g"
+    "Total lipid (fat)": "0.92 g",
+    "price": 0.55
   },
   {
     "description": "Lettuce, cos or romaine, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "bunch",
     "Carbohydrate, by difference": "3.24 g",
     "Total lipid (fat)": "0.26 g",
-    "Protein": "1.24 g"
+    "Protein": "1.24 g",
+    "price": 0.4
   },
   {
     "description": "Melons, cantaloupe, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "wedge",
     "Carbohydrate, by difference": "8.16 g",
     "Protein": "0.82 g",
-    "Total lipid (fat)": "0.18 g"
+    "Total lipid (fat)": "0.18 g",
+    "price": 0.55
   },
   {
     "description": "Oranges, raw, navels",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Protein": "0.91 g",
     "Total lipid (fat)": "0.15 g",
-    "Carbohydrate, by difference": "11.8 g"
+    "Carbohydrate, by difference": "11.8 g",
+    "price": 0.55
   },
   {
     "description": "Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Protein": "3.38 g",
     "Total lipid (fat)": "0.95 g",
-    "Carbohydrate, by difference": "5.18 g"
+    "Carbohydrate, by difference": "5.18 g",
+    "price": 1.2
   },
   {
     "description": "Pears, raw, bartlett",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Protein": "0.38 g",
     "Total lipid (fat)": "0.16 g",
-    "Carbohydrate, by difference": "15.1 g"
+    "Carbohydrate, by difference": "15.1 g",
+    "price": 0.55
   },
   {
     "description": "Restaurant, Chinese, sweet and sour pork",
+    "category": "Restaurant Foods",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "order",
     "Protein": "8.88 g",
     "Total lipid (fat)": "13.6 g",
-    "Carbohydrate, by difference": "25.5 g"
+    "Carbohydrate, by difference": "25.5 g",
+    "price": 2.8
   },
   {
     "description": "Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Total lipid (fat)": "0.08 g",
     "Protein": "3.43 g",
-    "Carbohydrate, by difference": "4.92 g"
+    "Carbohydrate, by difference": "4.92 g",
+    "price": 1.2
   },
   {
     "description": "Sauce, salsa, ready-to-serve",
+    "category": "Soups, Sauces, and Gravies",
+    "foodPortionValue": 2.0,
+    "foodPortionUnit": "tbsp",
     "Protein": "1.44 g",
     "Carbohydrate, by difference": "6.74 g",
-    "Total lipid (fat)": "0.19 g"
+    "Total lipid (fat)": "0.19 g",
+    "price": 1.0
   },
   {
     "description": "Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Protein": "3.36 g",
     "Carbohydrate, by difference": "4.9 g",
-    "Total lipid (fat)": "1.9 g"
+    "Total lipid (fat)": "1.9 g",
+    "price": 1.2
   },
   {
     "description": "Sausage, breakfast sausage, beef, pre-cooked, unprepared",
+    "category": "Sausages and Luncheon Meats",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "link",
     "Total lipid (fat)": "28.7 g",
     "Carbohydrate, by difference": "3.37 g",
-    "Protein": "13.3 g"
+    "Protein": "13.3 g",
+    "price": null
   },
   {
     "description": "Sausage, Italian, pork, mild, cooked, pan-fried",
+    "category": "Sausages and Luncheon Meats",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "link",
     "Total lipid (fat)": "26.2 g",
     "Carbohydrate, by difference": "2.15 g",
-    "Protein": "18.2 g"
+    "Protein": "18.2 g",
+    "price": null
   },
   {
     "description": "Sausage, pork, chorizo, link or ground, cooked, pan-fried",
+    "category": "Sausages and Luncheon Meats",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "link",
     "Total lipid (fat)": "28.1 g",
     "Protein": "19.3 g",
-    "Carbohydrate, by difference": "2.63 g"
+    "Carbohydrate, by difference": "2.63 g",
+    "price": null
   },
   {
     "description": "Milk, whole, 3.25% milkfat, with added vitamin D",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Total lipid (fat)": "3.2 g",
     "Carbohydrate, by difference": "4.63 g",
-    "Protein": "3.27 g"
+    "Protein": "3.27 g",
+    "price": 1.2
   },
   {
     "description": "Sausage, turkey, breakfast links, mild, raw",
+    "category": "Sausages and Luncheon Meats",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "package",
     "Protein": "16.7 g",
     "Total lipid (fat)": "10.4 g",
-    "Carbohydrate, by difference": "0.93 g"
+    "Carbohydrate, by difference": "0.93 g",
+    "price": null
   },
   {
     "description": "Sugars, granulated",
+    "category": "Sweets",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "tsp",
     "Protein": "0.0 g",
     "Total lipid (fat)": "0.32 g",
-    "Carbohydrate, by difference": "99.6 g"
+    "Carbohydrate, by difference": "99.6 g",
+    "price": 1.3
   },
   {
     "description": "Turkey, ground, 93% lean, 7% fat, pan-broiled crumbles",
+    "category": "Poultry Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "ckd pr g",
     "Total lipid (fat)": "11.6 g",
     "Protein": "27.1 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 1.9
   },
   {
     "description": "Ham, sliced, restaurant",
+    "category": "Pork Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "slice",
     "Total lipid (fat)": "3.68 g",
     "Protein": "19.6 g",
-    "Carbohydrate, by difference": "2.36 g"
+    "Carbohydrate, by difference": "2.36 g",
+    "price": 2.2
   },
   {
     "description": "Cheese, American, restaurant",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "slice",
     "Total lipid (fat)": "31.1 g",
     "Protein": "17.5 g",
-    "Carbohydrate, by difference": "6.35 g"
+    "Carbohydrate, by difference": "6.35 g",
+    "price": 1.2
   },
   {
     "description": "Beans, Dry, Medium Red (0% moisture)",
+    "category": null,
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "25.5 g",
     "Total lipid (fat)": "1.04 g"
   },
   {
     "description": "Beans, Dry, Red (0% moisture)",
+    "category": null,
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "21.3 g",
     "Total lipid (fat)": "1.16 g"
   },
   {
     "description": "Beans, Dry, Flor de Mayo (0% moisture)",
+    "category": null,
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "23.3 g",
     "Total lipid (fat)": "0.86 g"
   },
   {
     "description": "Beans, Dry, Brown (0% moisture)",
+    "category": null,
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "25.6 g",
     "Total lipid (fat)": "1.12 g"
   },
   {
     "description": "Beans, Dry, Tan (0% moisture)",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "26.8 g",
-    "Total lipid (fat)": "1.14 g"
+    "Total lipid (fat)": "1.14 g",
+    "price": 0.5
   },
   {
     "description": "Beans, Dry, Light Tan (0% moisture)",
+    "category": null,
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "24.6 g",
     "Total lipid (fat)": "1.28 g"
   },
   {
     "description": "Beans, Dry, Carioca (0% moisture)",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "25.2 g",
-    "Total lipid (fat)": "1.44 g"
+    "Total lipid (fat)": "1.44 g",
+    "price": 0.5
   },
   {
     "description": "Beans, Dry, Cranberry (0% moisture)",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "24.4 g",
-    "Total lipid (fat)": "1.23 g"
+    "Total lipid (fat)": "1.23 g",
+    "price": 0.5
   },
   {
     "description": "Beans, Dry, Light Red Kidney (0% moisture)",
+    "category": null,
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "25.0 g",
     "Total lipid (fat)": "1.03 g"
   },
   {
     "description": "Beans, Dry, Pink (0% moisture)",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "23.4 g",
-    "Total lipid (fat)": "1.2 g"
+    "Total lipid (fat)": "1.2 g",
+    "price": 0.5
   },
   {
     "description": "Beans, Dry, Dark Red Kidney (0% moisture)",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "25.9 g",
-    "Total lipid (fat)": "1.31 g"
+    "Total lipid (fat)": "1.31 g",
+    "price": 0.5
   },
   {
     "description": "Beans, Dry, Navy (0% moisture)",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "24.1 g",
-    "Total lipid (fat)": "1.51 g"
+    "Total lipid (fat)": "1.51 g",
+    "price": 0.5
   },
   {
     "description": "Beans, Dry, Small White (0% moisture)",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "24.5 g",
-    "Total lipid (fat)": "1.32 g"
+    "Total lipid (fat)": "1.32 g",
+    "price": 0.5
   },
   {
     "description": "Beans, Dry, Small Red (0% moisture)",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "23.5 g",
-    "Total lipid (fat)": "1.28 g"
+    "Total lipid (fat)": "1.28 g",
+    "price": 0.5
   },
   {
     "description": "Beans, Dry, Black (0% moisture)",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "24.4 g",
-    "Total lipid (fat)": "1.45 g"
+    "Total lipid (fat)": "1.45 g",
+    "price": 0.5
   },
   {
     "description": "Beans, Dry, Pinto (0% moisture)",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "23.7 g",
-    "Total lipid (fat)": "1.24 g"
+    "Total lipid (fat)": "1.24 g",
+    "price": 0.5
   },
   {
     "description": "Beans, Dry, Great Northern (0% moisture)",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "24.7 g",
-    "Total lipid (fat)": "1.24 g"
+    "Total lipid (fat)": "1.24 g",
+    "price": 0.5
   },
   {
     "description": "Broccoli, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "cup",
     "Carbohydrate, by difference": "6.27 g",
     "Total lipid (fat)": "0.34 g",
-    "Protein": "2.57 g"
+    "Protein": "2.57 g",
+    "price": 0.4
   },
   {
     "description": "Ketchup, restaurant",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.55 g",
     "Protein": "1.11 g",
-    "Carbohydrate, by difference": "26.8 g"
+    "Carbohydrate, by difference": "26.8 g",
+    "price": 0.4
   },
   {
     "description": "Eggs, Grade A, Large, egg white",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "egg",
     "Protein": "10.7 g",
     "Total lipid (fat)": "0.0 g",
-    "Carbohydrate, by difference": "2.36 g"
+    "Carbohydrate, by difference": "2.36 g",
+    "price": 1.2
   },
   {
     "description": "Eggs, Grade A, Large, egg yolk",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "egg",
     "Total lipid (fat)": "28.8 g",
     "Protein": "16.2 g",
-    "Carbohydrate, by difference": "1.02 g"
+    "Carbohydrate, by difference": "1.02 g",
+    "price": 1.2
   },
   {
     "description": "Eggs, Grade A, Large, egg whole",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "egg",
     "Protein": "12.4 g",
     "Total lipid (fat)": "9.96 g",
-    "Carbohydrate, by difference": "0.96 g"
+    "Carbohydrate, by difference": "0.96 g",
+    "price": 1.2
   },
   {
     "description": "Pork, cured, bacon, cooked, restaurant",
+    "category": "Pork Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "slice",
     "Total lipid (fat)": "36.5 g",
     "Protein": "40.9 g",
-    "Carbohydrate, by difference": "2.1 g"
+    "Carbohydrate, by difference": "2.1 g",
+    "price": 2.2
   },
   {
     "description": "Butter, stick, unsalted",
-    "Total lipid (fat)": "81.5 g"
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
+    "Total lipid (fat)": "81.5 g",
+    "price": 1.2
   },
   {
     "description": "Flour, wheat, all-purpose, enriched, bleached",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "10.9 g",
     "Total lipid (fat)": "1.48 g",
-    "Carbohydrate, by difference": "77.3 g"
+    "Carbohydrate, by difference": "77.3 g",
+    "price": 0.35
   },
   {
     "description": "Flour, wheat, all-purpose, enriched, unbleached",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.48 g",
     "Carbohydrate, by difference": "73.2 g",
-    "Protein": "13.1 g"
+    "Protein": "13.1 g",
+    "price": 0.35
   },
   {
     "description": "Flour, wheat, all-purpose, unenriched, unbleached",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.7 g",
     "Carbohydrate, by difference": "74.6 g",
-    "Protein": "12.0 g"
+    "Protein": "12.0 g",
+    "price": 0.35
   },
   {
     "description": "Flour, whole wheat, unenriched",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "2.73 g",
     "Carbohydrate, by difference": "71.2 g",
-    "Protein": "15.1 g"
+    "Protein": "15.1 g",
+    "price": 0.35
   },
   {
     "description": "Flour, bread, white, enriched, unbleached",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "14.3 g",
     "Total lipid (fat)": "1.65 g",
-    "Carbohydrate, by difference": "72.8 g"
+    "Carbohydrate, by difference": "72.8 g",
+    "price": 0.35
   },
   {
     "description": "Flour, rice, white, unenriched",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.3 g",
     "Carbohydrate, by difference": "79.8 g",
-    "Protein": "6.94 g"
+    "Protein": "6.94 g",
+    "price": 0.35
   },
   {
     "description": "Flour, corn, yellow, fine meal, enriched",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.74 g",
     "Protein": "6.2 g",
-    "Carbohydrate, by difference": "80.8 g"
+    "Carbohydrate, by difference": "80.8 g",
+    "price": 0.35
   },
   {
     "description": "Butter, stick, salted",
-    "Total lipid (fat)": "82.2 g"
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
+    "Total lipid (fat)": "82.2 g",
+    "price": 1.2
   },
   {
     "description": "Onions, red, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "Onion",
     "Protein": "0.94 g",
     "Total lipid (fat)": "0.1 g",
-    "Carbohydrate, by difference": "9.93 g"
+    "Carbohydrate, by difference": "9.93 g",
+    "price": 0.4
   },
   {
     "description": "Onions, yellow, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "Onion",
     "Protein": "0.83 g",
     "Total lipid (fat)": "0.05 g",
-    "Carbohydrate, by difference": "8.61 g"
+    "Carbohydrate, by difference": "8.61 g",
+    "price": 0.4
   },
   {
     "description": "Garlic, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.38 g",
     "Protein": "6.62 g",
-    "Carbohydrate, by difference": "28.2 g"
+    "Carbohydrate, by difference": "28.2 g",
+    "price": 0.4
   },
   {
     "description": "Flour, soy, defatted",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "3.33 g",
     "Carbohydrate, by difference": "32.9 g",
-    "Protein": "51.1 g"
+    "Protein": "51.1 g",
+    "price": 0.5
   },
   {
     "description": "Flour, soy, full-fat",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Carbohydrate, by difference": "27.9 g",
     "Protein": "38.6 g",
-    "Total lipid (fat)": "20.7 g"
+    "Total lipid (fat)": "20.7 g",
+    "price": 0.5
   },
   {
     "description": "Flour, rice, brown",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Protein": "7.19 g",
     "Total lipid (fat)": "3.85 g",
-    "Carbohydrate, by difference": "75.5 g"
+    "Carbohydrate, by difference": "75.5 g",
+    "price": 0.35
   },
   {
     "description": "Flour, rice, glutinous",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.16 g",
     "Protein": "6.69 g",
-    "Carbohydrate, by difference": "80.1 g"
+    "Carbohydrate, by difference": "80.1 g",
+    "price": 0.35
   },
   {
     "description": "Flour, pastry, unenriched, unbleached",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.64 g",
     "Protein": "8.75 g",
-    "Carbohydrate, by difference": "77.2 g"
+    "Carbohydrate, by difference": "77.2 g",
+    "price": 0.35
   },
   {
     "description": "Onions, white, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.13 g",
     "Protein": "0.89 g",
-    "Carbohydrate, by difference": "7.68 g"
+    "Carbohydrate, by difference": "7.68 g",
+    "price": 0.4
   },
   {
     "description": "Bananas, overripe, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "Banana",
     "Total lipid (fat)": "0.22 g",
     "Protein": "0.73 g",
-    "Carbohydrate, by difference": "20.1 g"
+    "Carbohydrate, by difference": "20.1 g",
+    "price": 0.55
   },
   {
     "description": "Bananas, ripe and slightly ripe, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 1.0,
+    "foodPortionUnit": "Banana",
     "Carbohydrate, by difference": "23.0 g",
     "Protein": "0.74 g",
-    "Total lipid (fat)": "0.29 g"
+    "Total lipid (fat)": "0.29 g",
+    "price": 0.55
   },
   {
     "description": "Apples, red delicious, with skin, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.212 g",
     "Protein": "0.188 g",
-    "Carbohydrate, by difference": "14.8 g"
+    "Carbohydrate, by difference": "14.8 g",
+    "price": 0.55
   },
   {
     "description": "Apples, fuji, with skin, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.162 g",
     "Protein": "0.148 g",
-    "Carbohydrate, by difference": "15.7 g"
+    "Carbohydrate, by difference": "15.7 g",
+    "price": 0.55
   },
   {
     "description": "Apples, gala, with skin, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.15 g",
     "Protein": "0.133 g",
-    "Carbohydrate, by difference": "14.8 g"
+    "Carbohydrate, by difference": "14.8 g",
+    "price": 0.55
   },
   {
     "description": "Apples, granny smith, with skin, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.138 g",
     "Protein": "0.266 g",
-    "Carbohydrate, by difference": "14.1 g"
+    "Carbohydrate, by difference": "14.1 g",
+    "price": 0.55
   },
   {
     "description": "Apples, honeycrisp, with skin, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.1 g",
     "Protein": "0.102 g",
-    "Carbohydrate, by difference": "14.7 g"
+    "Carbohydrate, by difference": "14.7 g",
+    "price": 0.55
   },
   {
     "description": "Mushroom, lion's mane",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.256 g",
     "Protein": "2.5 g",
-    "Carbohydrate, by difference": "7.59 g"
+    "Carbohydrate, by difference": "7.59 g",
+    "price": 0.4
   },
   {
     "description": "Mushroom, oyster",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.188 g",
     "Protein": "2.9 g",
-    "Carbohydrate, by difference": "6.94 g"
+    "Carbohydrate, by difference": "6.94 g",
+    "price": 0.4
   },
   {
     "description": "Mushrooms, shiitake",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.195 g",
     "Protein": "2.41 g",
-    "Carbohydrate, by difference": "8.17 g"
+    "Carbohydrate, by difference": "8.17 g",
+    "price": 0.4
   },
   {
     "description": "Mushrooms, white button",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.371 g",
     "Protein": "2.89 g",
-    "Carbohydrate, by difference": "4.08 g"
+    "Carbohydrate, by difference": "4.08 g",
+    "price": 0.4
   },
   {
     "description": "Soy milk, unsweetened, plain, shelf stable",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "2.12 g",
     "Protein": "3.55 g",
-    "Carbohydrate, by difference": "1.29 g"
+    "Carbohydrate, by difference": "1.29 g",
+    "price": 0.5
   },
   {
     "description": "Almond milk, unsweetened, plain, shelf stable",
+    "category": "Beverages",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.22 g",
     "Protein": "0.555 g",
-    "Carbohydrate, by difference": "0.337 g"
+    "Carbohydrate, by difference": "0.337 g",
+    "price": 0.75
   },
   {
     "description": "Spinach, baby",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.619 g",
     "Protein": "2.85 g",
-    "Carbohydrate, by difference": "2.41 g"
+    "Carbohydrate, by difference": "2.41 g",
+    "price": 0.4
   },
   {
     "description": "Spinach, mature",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.604 g",
     "Protein": "2.91 g",
-    "Carbohydrate, by difference": "2.64 g"
+    "Carbohydrate, by difference": "2.64 g",
+    "price": 0.4
   },
   {
     "description": "Tomato, roma",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.425 g",
     "Protein": "0.696 g",
-    "Carbohydrate, by difference": "3.84 g"
+    "Carbohydrate, by difference": "3.84 g",
+    "price": 0.4
   },
   {
     "description": "Flour, 00",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.52 g",
     "Protein": "11.4 g",
-    "Carbohydrate, by difference": "74.4 g"
+    "Carbohydrate, by difference": "74.4 g",
+    "price": 0.35
   },
   {
     "description": "Flour, spelt, whole grain",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "2.54 g",
     "Protein": "14.5 g",
-    "Carbohydrate, by difference": "70.7 g"
+    "Carbohydrate, by difference": "70.7 g",
+    "price": 0.35
   },
   {
     "description": "Flour, semolina, coarse and semi-coarse",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.6 g",
     "Protein": "11.7 g",
-    "Carbohydrate, by difference": "73.8 g"
+    "Carbohydrate, by difference": "73.8 g",
+    "price": 0.35
   },
   {
     "description": "Flour, semolina, fine",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.84 g",
     "Protein": "13.3 g",
-    "Carbohydrate, by difference": "72.0 g"
+    "Carbohydrate, by difference": "72.0 g",
+    "price": 0.35
   },
   {
     "description": "Apple juice, with added vitamin C, from concentrate, shelf stable",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.286 g",
     "Protein": "0.086 g",
-    "Carbohydrate, by difference": "11.4 g"
+    "Carbohydrate, by difference": "11.4 g",
+    "price": 0.55
   },
   {
     "description": "Orange juice, no pulp, not fortified, from concentrate, refrigerated",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.325 g",
     "Protein": "0.734 g",
-    "Carbohydrate, by difference": "10.3 g"
+    "Carbohydrate, by difference": "10.3 g",
+    "price": 0.55
   },
   {
     "description": "Grape juice, purple, with added vitamin C, from concentrate, shelf stable",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.288 g",
     "Protein": "0.258 g",
-    "Carbohydrate, by difference": "15.6 g"
+    "Carbohydrate, by difference": "15.6 g",
+    "price": 0.55
   },
   {
     "description": "Grape juice, white, with added vitamin C, from concentrate, shelf stable",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.265 g",
     "Protein": "0.094 g",
-    "Carbohydrate, by difference": "15.8 g"
+    "Carbohydrate, by difference": "15.8 g",
+    "price": 0.55
   },
   {
     "description": "Cranberry juice, not fortified, from concentrate, shelf stable",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.338 g",
     "Protein": "0.0 g",
-    "Carbohydrate, by difference": "7.26 g"
+    "Carbohydrate, by difference": "7.26 g",
+    "price": 0.55
   },
   {
     "description": "Grapefruit juice, red, not fortified, not from concentrate, refrigerated",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.267 g",
     "Protein": "0.57 g",
-    "Carbohydrate, by difference": "9.1 g"
+    "Carbohydrate, by difference": "9.1 g",
+    "price": 0.55
   },
   {
     "description": "Tomato juice, with added ingredients, from concentrate, shelf stable",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.288 g",
     "Protein": "0.859 g",
-    "Carbohydrate, by difference": "4.32 g"
+    "Carbohydrate, by difference": "4.32 g",
+    "price": 0.55
   },
   {
     "description": "Orange juice, no pulp, not fortified, not from concentrate, refrigerated",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.356 g",
     "Protein": "0.812 g",
-    "Carbohydrate, by difference": "10.0 g"
+    "Carbohydrate, by difference": "10.0 g",
+    "price": 0.55
   },
   {
     "description": "Mushroom, portabella",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.312 g",
     "Protein": "2.75 g",
-    "Carbohydrate, by difference": "4.66 g"
+    "Carbohydrate, by difference": "4.66 g",
+    "price": 0.4
   },
   {
     "description": "Mushroom, king oyster",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.308 g",
     "Protein": "2.41 g",
-    "Carbohydrate, by difference": "8.5 g"
+    "Carbohydrate, by difference": "8.5 g",
+    "price": 0.4
   },
   {
     "description": "Mushroom, enoki",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.245 g",
     "Protein": "2.42 g",
-    "Carbohydrate, by difference": "8.14 g"
+    "Carbohydrate, by difference": "8.14 g",
+    "price": 0.4
   },
   {
     "description": "Mushroom, crimini",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.197 g",
     "Protein": "3.09 g",
-    "Carbohydrate, by difference": "4.01 g"
+    "Carbohydrate, by difference": "4.01 g",
+    "price": 0.4
   },
   {
     "description": "Mushroom, maitake",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.265 g",
     "Protein": "2.2 g",
-    "Carbohydrate, by difference": "6.6 g"
+    "Carbohydrate, by difference": "6.6 g",
+    "price": 0.4
   },
   {
     "description": "Mushroom, beech",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.449 g",
     "Protein": "2.18 g",
-    "Carbohydrate, by difference": "6.76 g"
+    "Carbohydrate, by difference": "6.76 g",
+    "price": 0.4
   },
   {
     "description": "Mushroom, pioppini",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.24 g",
     "Protein": "3.5 g",
-    "Carbohydrate, by difference": "5.76 g"
+    "Carbohydrate, by difference": "5.76 g",
+    "price": 0.4
   },
   {
     "description": "Soy milk, sweetened, plain, refrigerated",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.96 g",
     "Protein": "2.78 g",
-    "Carbohydrate, by difference": "3.0 g"
+    "Carbohydrate, by difference": "3.0 g",
+    "price": 0.5
   },
   {
     "description": "Almond milk, unsweetened, plain, refrigerated",
+    "category": "Beverages",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.56 g",
     "Protein": "0.656 g",
-    "Carbohydrate, by difference": "0.671 g"
+    "Carbohydrate, by difference": "0.671 g",
+    "price": 0.75
   },
   {
     "description": "Oat milk, unsweetened, plain, refrigerated",
+    "category": "Beverages",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "2.75 g",
     "Protein": "0.797 g",
-    "Carbohydrate, by difference": "5.1 g"
+    "Carbohydrate, by difference": "5.1 g",
+    "price": 0.75
   },
   {
     "description": "Carrots, mature, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.351 g",
     "Protein": "0.941 g",
-    "Carbohydrate, by difference": "10.3 g"
+    "Carbohydrate, by difference": "10.3 g",
+    "price": 0.4
   },
   {
     "description": "Carrots, baby, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.138 g",
     "Protein": "0.805 g",
-    "Carbohydrate, by difference": "9.08 g"
+    "Carbohydrate, by difference": "9.08 g",
+    "price": 0.4
   },
   {
     "description": "Peppers, bell, green, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.106 g",
     "Protein": "0.715 g",
-    "Carbohydrate, by difference": "4.78 g"
+    "Carbohydrate, by difference": "4.78 g",
+    "price": 0.4
   },
   {
     "description": "Peppers, bell, yellow, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.121 g",
     "Carbohydrate, by difference": "6.6 g",
-    "Protein": "0.819 g"
+    "Protein": "0.819 g",
+    "price": 0.4
   },
   {
     "description": "Peppers, bell, red, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.126 g",
     "Carbohydrate, by difference": "6.65 g",
-    "Protein": "0.896 g"
+    "Protein": "0.896 g",
+    "price": 0.4
   },
   {
     "description": "Peppers, bell, orange, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.156 g",
     "Protein": "0.882 g",
-    "Carbohydrate, by difference": "6.7 g"
+    "Carbohydrate, by difference": "6.7 g",
+    "price": 0.4
   },
   {
     "description": "Buttermilk, low fat",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.08 g",
     "Protein": "3.46 g",
-    "Carbohydrate, by difference": "4.81 g"
+    "Carbohydrate, by difference": "4.81 g",
+    "price": 1.2
   },
   {
     "description": "Yogurt, plain, whole milk",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "4.48 g",
     "Carbohydrate, by difference": "5.57 g",
-    "Protein": "3.82 g"
+    "Protein": "3.82 g",
+    "price": 1.2
   },
   {
     "description": "Yogurt, Greek, plain, whole milk",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "4.39 g",
     "Carbohydrate, by difference": "4.75 g",
-    "Protein": "8.78 g"
+    "Protein": "8.78 g",
+    "price": 1.2
   },
   {
     "description": "Cheese, parmesan, grated, refrigerated",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "29.5 g",
     "Carbohydrate, by difference": "4.33 g",
-    "Protein": "30.1 g"
+    "Protein": "30.1 g",
+    "price": 1.2
   },
   {
     "description": "Cheese, feta, whole milk, crumbled",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "19.1 g",
     "Carbohydrate, by difference": "5.58 g",
-    "Protein": "19.7 g"
+    "Protein": "19.7 g",
+    "price": 1.2
   },
   {
     "description": "Flour, almond",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "50.2 g",
     "Protein": "26.2 g",
-    "Carbohydrate, by difference": "16.2 g"
+    "Carbohydrate, by difference": "16.2 g",
+    "price": 1.8
   },
   {
     "description": "Flour, oat, whole grain",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "6.31 g",
     "Carbohydrate, by difference": "69.9 g",
-    "Protein": "13.2 g"
+    "Protein": "13.2 g",
+    "price": 0.35
   },
   {
     "description": "Flour, potato",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.951 g",
     "Carbohydrate, by difference": "79.9 g",
-    "Protein": "8.11 g"
+    "Protein": "8.11 g",
+    "price": 0.4
   },
   {
     "description": "Peanut butter, creamy",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "49.4 g",
     "Protein": "24.0 g",
-    "Carbohydrate, by difference": "22.7 g"
+    "Carbohydrate, by difference": "22.7 g",
+    "price": 0.5
   },
   {
     "description": "Sesame butter, creamy",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "62.4 g",
     "Carbohydrate, by difference": "14.2 g",
-    "Protein": "19.7 g"
+    "Protein": "19.7 g",
+    "price": 1.8
   },
   {
     "description": "Almond butter, creamy",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "53.0 g",
     "Carbohydrate, by difference": "21.2 g",
-    "Protein": "20.8 g"
+    "Protein": "20.8 g",
+    "price": 1.8
   },
   {
     "description": "Flaxseed, ground",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "37.3 g",
     "Carbohydrate, by difference": "34.4 g",
-    "Protein": "18.0 g"
+    "Protein": "18.0 g",
+    "price": 1.8
   },
   {
     "description": "Cottage cheese, full fat, large or small curd",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "4.22 g",
     "Protein": "11.6 g",
-    "Carbohydrate, by difference": "4.6 g"
+    "Carbohydrate, by difference": "4.6 g",
+    "price": 1.2
   },
   {
     "description": "Cream cheese, full fat, block",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "33.5 g",
     "Carbohydrate, by difference": "4.56 g",
-    "Protein": "5.79 g"
+    "Protein": "5.79 g",
+    "price": 1.2
   },
   {
     "description": "Cream, heavy",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "35.6 g",
     "Protein": "2.02 g",
-    "Carbohydrate, by difference": "3.8 g"
+    "Carbohydrate, by difference": "3.8 g",
+    "price": 1.2
   },
   {
     "description": "Cream, sour, full fat",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "18.0 g",
     "Protein": "3.07 g",
-    "Carbohydrate, by difference": "5.56 g"
+    "Carbohydrate, by difference": "5.56 g",
+    "price": 1.2
   },
   {
     "description": "Lettuce, iceberg, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.074 g",
     "Protein": "0.742 g",
-    "Carbohydrate, by difference": "3.37 g"
+    "Carbohydrate, by difference": "3.37 g",
+    "price": 0.4
   },
   {
     "description": "Lettuce, romaine, green, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.071 g",
     "Protein": "0.977 g",
-    "Carbohydrate, by difference": "4.06 g"
+    "Carbohydrate, by difference": "4.06 g",
+    "price": 0.4
   },
   {
     "description": "Lettuce, leaf, red, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.106 g",
     "Protein": "0.883 g",
-    "Carbohydrate, by difference": "3.26 g"
+    "Carbohydrate, by difference": "3.26 g",
+    "price": 0.4
   },
   {
     "description": "Lettuce, leaf, green, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.156 g",
     "Carbohydrate, by difference": "4.07 g",
-    "Protein": "1.09 g"
+    "Protein": "1.09 g",
+    "price": 0.4
   },
   {
     "description": "Nuts, pine nuts, raw",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "61.3 g",
     "Carbohydrate, by difference": "18.6 g",
-    "Protein": "15.7 g"
+    "Protein": "15.7 g",
+    "price": 1.8
   },
   {
     "description": "Nuts, almonds, whole, raw",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "51.1 g",
     "Carbohydrate, by difference": "20.0 g",
-    "Protein": "21.5 g"
+    "Protein": "21.5 g",
+    "price": 1.8
   },
   {
     "description": "Nuts, walnuts, English, halves, raw",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "69.7 g",
     "Carbohydrate, by difference": "10.9 g",
-    "Protein": "14.6 g"
+    "Protein": "14.6 g",
+    "price": 1.8
   },
   {
     "description": "Nuts, pecans, halves, raw",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "73.3 g",
     "Carbohydrate, by difference": "12.7 g",
-    "Protein": "9.96 g"
+    "Protein": "9.96 g",
+    "price": 1.8
   },
   {
     "description": "Oats, whole grain, rolled, old fashioned",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "5.89 g",
     "Carbohydrate, by difference": "68.7 g",
-    "Protein": "13.5 g"
+    "Protein": "13.5 g",
+    "price": 0.35
   },
   {
     "description": "Oats, whole grain, steel cut",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "5.8 g",
     "Carbohydrate, by difference": "69.8 g",
-    "Protein": "12.5 g"
+    "Protein": "12.5 g",
+    "price": 0.35
   },
   {
     "description": "Pineapple, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.211 g",
     "Carbohydrate, by difference": "14.1 g",
-    "Protein": "0.461 g"
+    "Protein": "0.461 g",
+    "price": 0.55
   },
   {
     "description": "Cherries, sweet, dark red, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.192 g",
     "Protein": "1.04 g",
-    "Carbohydrate, by difference": "16.2 g"
+    "Carbohydrate, by difference": "16.2 g",
+    "price": 0.55
   },
   {
     "description": "Beans, snap, green, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.275 g",
     "Protein": "1.97 g",
-    "Carbohydrate, by difference": "7.41 g"
+    "Carbohydrate, by difference": "7.41 g",
+    "price": 0.4
   },
   {
     "description": "Potatoes, russet, without skin, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.36 g",
     "Carbohydrate, by difference": "17.8 g",
-    "Protein": "2.27 g"
+    "Protein": "2.27 g",
+    "price": 0.4
   },
   {
     "description": "Potatoes, red, without skin, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.248 g",
     "Protein": "2.06 g",
-    "Carbohydrate, by difference": "16.3 g"
+    "Carbohydrate, by difference": "16.3 g",
+    "price": 0.4
   },
   {
     "description": "Potatoes, gold, without skin, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.264 g",
     "Protein": "1.81 g",
-    "Carbohydrate, by difference": "16.0 g"
+    "Carbohydrate, by difference": "16.0 g",
+    "price": 0.4
   },
   {
     "description": "Sweet potatoes, orange flesh, without skin, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.375 g",
     "Carbohydrate, by difference": "17.3 g",
-    "Protein": "1.58 g"
+    "Protein": "1.58 g",
+    "price": 0.4
   },
   {
     "description": "Celery, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.162 g",
     "Protein": "0.492 g",
-    "Carbohydrate, by difference": "3.32 g"
+    "Carbohydrate, by difference": "3.32 g",
+    "price": 0.4
   },
   {
     "description": "Cucumber, with peel, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.178 g",
     "Protein": "0.625 g",
-    "Carbohydrate, by difference": "2.95 g"
+    "Carbohydrate, by difference": "2.95 g",
+    "price": 0.4
   },
   {
     "description": "Cabbage, green, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.228 g",
     "Protein": "0.961 g",
-    "Carbohydrate, by difference": "6.38 g"
+    "Carbohydrate, by difference": "6.38 g",
+    "price": 0.4
   },
   {
     "description": "Cabbage, red, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.214 g",
     "Protein": "1.24 g",
-    "Carbohydrate, by difference": "6.79 g"
+    "Carbohydrate, by difference": "6.79 g",
+    "price": 0.4
   },
   {
     "description": "Strawberries, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.22 g",
     "Carbohydrate, by difference": "7.96 g",
-    "Protein": "0.641 g"
+    "Protein": "0.641 g",
+    "price": 0.55
   },
   {
     "description": "Raspberries, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.188 g",
     "Carbohydrate, by difference": "12.9 g",
-    "Protein": "1.01 g"
+    "Protein": "1.01 g",
+    "price": 0.55
   },
   {
     "description": "Blueberries, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.306 g",
     "Protein": "0.703 g",
-    "Carbohydrate, by difference": "14.6 g"
+    "Carbohydrate, by difference": "14.6 g",
+    "price": 0.55
   },
   {
     "description": "Grapes, red, seedless, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.164 g",
     "Protein": "0.914 g",
-    "Carbohydrate, by difference": "20.2 g"
+    "Carbohydrate, by difference": "20.2 g",
+    "price": 0.55
   },
   {
     "description": "Grapes, green, seedless, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.232 g",
     "Protein": "0.899 g",
-    "Carbohydrate, by difference": "18.6 g"
+    "Carbohydrate, by difference": "18.6 g",
+    "price": 0.55
   },
   {
     "description": "Applesauce, unsweetened, with added vitamin C",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.162 g",
     "Carbohydrate, by difference": "12.3 g",
-    "Protein": "0.273 g"
+    "Protein": "0.273 g",
+    "price": 0.55
   },
   {
     "description": "Flour, amaranth",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "6.24 g",
     "Protein": "13.2 g",
-    "Carbohydrate, by difference": "68.8 g"
+    "Carbohydrate, by difference": "68.8 g",
+    "price": 0.35
   },
   {
     "description": "Flour, quinoa",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "6.6 g",
     "Protein": "11.9 g",
-    "Carbohydrate, by difference": "69.5 g"
+    "Carbohydrate, by difference": "69.5 g",
+    "price": 0.35
   },
   {
     "description": "Flour, sorghum",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "3.59 g",
     "Protein": "8.27 g",
-    "Carbohydrate, by difference": "77.4 g"
+    "Carbohydrate, by difference": "77.4 g",
+    "price": 0.35
   },
   {
     "description": "Flour, buckwheat",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "2.48 g",
     "Protein": "8.88 g",
-    "Carbohydrate, by difference": "75.0 g"
+    "Carbohydrate, by difference": "75.0 g",
+    "price": 0.35
   },
   {
     "description": "Flour, rye",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.91 g",
     "Protein": "8.4 g",
-    "Carbohydrate, by difference": "77.2 g"
+    "Carbohydrate, by difference": "77.2 g",
+    "price": 0.35
   },
   {
     "description": "Flour, barley",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "2.45 g",
     "Protein": "8.72 g",
-    "Carbohydrate, by difference": "77.4 g"
+    "Carbohydrate, by difference": "77.4 g",
+    "price": 0.35
   },
   {
     "description": "Flour, cassava",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.494 g",
     "Protein": "0.918 g",
-    "Carbohydrate, by difference": "87.3 g"
+    "Carbohydrate, by difference": "87.3 g",
+    "price": 0.4
   },
   {
     "description": "Buckwheat, whole grain",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "3.04 g",
     "Protein": "11.1 g",
-    "Carbohydrate, by difference": "71.1 g"
+    "Carbohydrate, by difference": "71.1 g",
+    "price": 0.35
   },
   {
     "description": "Millet, whole grain",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "4.19 g",
     "Protein": "10.0 g",
-    "Carbohydrate, by difference": "74.4 g"
+    "Carbohydrate, by difference": "74.4 g",
+    "price": 0.35
   },
   {
     "description": "Rice, brown, long grain, unenriched, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "3.31 g",
     "Protein": "7.25 g",
-    "Carbohydrate, by difference": "76.7 g"
+    "Carbohydrate, by difference": "76.7 g",
+    "price": 0.35
   },
   {
     "description": "Rice, white, long grain, unenriched, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.03 g",
     "Carbohydrate, by difference": "80.3 g",
-    "Protein": "7.04 g"
+    "Protein": "7.04 g",
+    "price": 0.35
   },
   {
     "description": "Beef, ground, 90% lean meat / 10% fat, raw",
+    "category": "Beef Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "12.8 g",
     "Protein": "18.2 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 2.5
   },
   {
     "description": "Beef, ground, 80% lean meat / 20% fat, raw",
+    "category": "Beef Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "19.4 g",
     "Protein": "17.5 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 2.5
   },
   {
     "description": "Pork, ground, raw",
+    "category": "Pork Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "17.5 g",
     "Protein": "17.8 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 2.2
   },
   {
     "description": "Chicken, ground, with additives, raw",
+    "category": "Poultry Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "7.16 g",
     "Protein": "17.9 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 1.9
   },
   {
     "description": "Turkey, ground, 93% lean/ 7% fat, raw",
+    "category": "Poultry Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "9.59 g",
     "Protein": "17.3 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 1.9
   },
   {
     "description": "Nuts, brazilnuts, raw",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "57.4 g",
     "Protein": "15.0 g",
-    "Carbohydrate, by difference": "21.6 g"
+    "Carbohydrate, by difference": "21.6 g",
+    "price": 1.8
   },
   {
     "description": "Nuts, cashew nuts, raw",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "38.9 g",
     "Protein": "17.4 g",
-    "Carbohydrate, by difference": "36.3 g"
+    "Carbohydrate, by difference": "36.3 g",
+    "price": 1.8
   },
   {
     "description": "Nuts, hazelnuts or filberts, raw",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "53.5 g",
     "Protein": "13.5 g",
-    "Carbohydrate, by difference": "26.5 g"
+    "Carbohydrate, by difference": "26.5 g",
+    "price": 1.8
   },
   {
     "description": "Peanuts, raw",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "43.3 g",
     "Protein": "23.2 g",
-    "Carbohydrate, by difference": "26.5 g"
+    "Carbohydrate, by difference": "26.5 g",
+    "price": 0.5
   },
   {
     "description": "Flour, chestnut",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "4.64 g",
     "Protein": "5.29 g",
-    "Carbohydrate, by difference": "80.5 g"
+    "Carbohydrate, by difference": "80.5 g",
+    "price": 1.8
   },
   {
     "description": "Nuts, macadamia nuts, raw",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "64.9 g",
     "Protein": "7.79 g",
-    "Carbohydrate, by difference": "24.1 g"
+    "Carbohydrate, by difference": "24.1 g",
+    "price": 1.8
   },
   {
     "description": "Nuts, pistachio nuts, raw",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "45.0 g",
     "Protein": "20.5 g",
-    "Carbohydrate, by difference": "27.7 g"
+    "Carbohydrate, by difference": "27.7 g",
+    "price": 1.8
   },
   {
     "description": "Seeds, pumpkin seeds (pepitas), raw",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "40.0 g",
     "Protein": "29.9 g",
-    "Carbohydrate, by difference": "18.7 g"
+    "Carbohydrate, by difference": "18.7 g",
+    "price": 1.8
   },
   {
     "description": "Seeds, sunflower seed, kernel, raw",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "48.4 g",
     "Protein": "18.9 g",
-    "Carbohydrate, by difference": "24.5 g"
+    "Carbohydrate, by difference": "24.5 g",
+    "price": 1.8
   },
   {
     "description": "Flour, coconut",
+    "category": "Nut and Seed Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "15.3 g",
     "Protein": "16.1 g",
-    "Carbohydrate, by difference": "58.9 g"
+    "Carbohydrate, by difference": "58.9 g",
+    "price": 1.8
   },
   {
     "description": "Beans, cannellini, dry",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "2.2 g",
     "Protein": "21.6 g",
-    "Carbohydrate, by difference": "59.8 g"
+    "Carbohydrate, by difference": "59.8 g",
+    "price": 0.5
   },
   {
     "description": "Chickpeas, (garbanzo beans, bengal gram), dry",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "6.27 g",
     "Carbohydrate, by difference": "60.4 g",
-    "Protein": "21.3 g"
+    "Protein": "21.3 g",
+    "price": 0.5
   },
   {
     "description": "Lentils, dry",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.92 g",
     "Protein": "23.6 g",
-    "Carbohydrate, by difference": "62.2 g"
+    "Carbohydrate, by difference": "62.2 g",
+    "price": 0.5
   },
   {
     "description": "Blackeye pea, dry",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "2.42 g",
     "Protein": "21.2 g",
-    "Carbohydrate, by difference": "61.8 g"
+    "Carbohydrate, by difference": "61.8 g",
+    "price": 0.5
   },
   {
     "description": "Beans, black, canned, sodium added, drained and rinsed",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.27 g",
     "Protein": "6.91 g",
-    "Carbohydrate, by difference": "19.8 g"
+    "Carbohydrate, by difference": "19.8 g",
+    "price": 0.5
   },
   {
     "description": "Beans, navy, canned, sodium added, drained and rinsed",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.4 g",
     "Protein": "6.57 g",
-    "Carbohydrate, by difference": "20.0 g"
+    "Carbohydrate, by difference": "20.0 g",
+    "price": 0.5
   },
   {
     "description": "Beans, cannellini, canned, sodium added, drained and rinsed",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.17 g",
     "Protein": "7.41 g",
-    "Carbohydrate, by difference": "18.8 g"
+    "Carbohydrate, by difference": "18.8 g",
+    "price": 0.5
   },
   {
     "description": "Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "3.1 g",
     "Protein": "7.02 g",
-    "Carbohydrate, by difference": "20.3 g"
+    "Carbohydrate, by difference": "20.3 g",
+    "price": 0.5
   },
   {
     "description": "Beans, kidney, dark red, canned, sodium added, sugar added, drained and rinsed",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.26 g",
     "Protein": "7.8 g",
-    "Carbohydrate, by difference": "21.0 g"
+    "Carbohydrate, by difference": "21.0 g",
+    "price": 0.5
   },
   {
     "description": "Beans, kidney, light red, canned, sodium added, sugar added, drained and rinsed",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.3 g",
     "Protein": "7.31 g",
-    "Carbohydrate, by difference": "21.4 g"
+    "Carbohydrate, by difference": "21.4 g",
+    "price": 0.5
   },
   {
     "description": "Peas, green, sweet, canned, sodium added, sugar added, drained and rinsed",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.15 g",
     "Protein": "4.73 g",
-    "Carbohydrate, by difference": "12.7 g"
+    "Carbohydrate, by difference": "12.7 g",
+    "price": 0.4
   },
   {
     "description": "Beans, pinto, canned, sodium added, drained and rinsed",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.27 g",
     "Carbohydrate, by difference": "19.6 g",
-    "Protein": "6.69 g"
+    "Protein": "6.69 g",
+    "price": 0.5
   },
   {
     "description": "Blackeye pea, canned, sodium added, drained and rinsed",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.3 g",
     "Carbohydrate, by difference": "19.2 g",
-    "Protein": "6.92 g"
+    "Protein": "6.92 g",
+    "price": 0.5
   },
   {
     "description": "Beans, great northern, canned, sodium added, drained and rinsed",
+    "category": "Legumes and Legume Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.27 g",
     "Carbohydrate, by difference": "19.3 g",
-    "Protein": "7.03 g"
+    "Protein": "7.03 g",
+    "price": 0.5
   },
   {
     "description": "Pork, loin, boneless, raw",
+    "category": "Pork Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "9.47 g",
     "Protein": "21.1 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 2.2
   },
   {
     "description": "Pork, loin, tenderloin, boneless, raw",
+    "category": "Pork Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "3.9 g",
     "Protein": "21.6 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 2.2
   },
   {
     "description": "Chicken, breast, boneless, skinless, raw",
+    "category": "Poultry Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.93 g",
     "Protein": "22.5 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 1.9
   },
   {
     "description": "Chicken, thigh, boneless, skinless, raw",
+    "category": "Poultry Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "7.92 g",
     "Protein": "18.6 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 1.9
   },
   {
     "description": "Beef, ribeye, steak, boneless, choice, raw",
+    "category": "Beef Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "20.0 g",
     "Protein": "18.7 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 2.5
   },
   {
     "description": "Beef, round, top round, boneless, choice, raw",
+    "category": "Beef Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "5.7 g",
     "Protein": "21.5 g",
-    "Carbohydrate, by difference": "0.852 g"
+    "Carbohydrate, by difference": "0.852 g",
+    "price": 2.5
   },
   {
     "description": "Beef, chuck, roast, boneless, choice, raw",
+    "category": "Beef Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "17.8 g",
     "Protein": "18.4 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 2.5
   },
   {
     "description": "Beef, flank, steak, boneless, choice, raw",
+    "category": "Beef Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "9.4 g",
     "Protein": "20.1 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 2.5
   },
   {
     "description": "Yogurt, plain, nonfat",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.087 g",
     "Protein": "4.23 g",
-    "Carbohydrate, by difference": "8.08 g"
+    "Carbohydrate, by difference": "8.08 g",
+    "price": 1.2
   },
   {
     "description": "Cheese, monterey jack, solid",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "32.6 g",
     "Carbohydrate, by difference": "1.9 g",
-    "Protein": "22.6 g"
+    "Protein": "22.6 g",
+    "price": 1.2
   },
   {
     "description": "Cheese, pasteurized process cheese food or product, American, singles",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "23.9 g",
     "Carbohydrate, by difference": "8.19 g",
-    "Protein": "15.6 g"
+    "Protein": "15.6 g",
+    "price": 1.2
   },
   {
     "description": "Cheese, provolone, sliced",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "28.1 g",
     "Protein": "23.5 g",
-    "Carbohydrate, by difference": "2.45 g"
+    "Carbohydrate, by difference": "2.45 g",
+    "price": 1.2
   },
   {
     "description": "Cheese, oaxaca, solid",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "22.1 g",
     "Carbohydrate, by difference": "2.4 g",
-    "Protein": "22.1 g"
+    "Protein": "22.1 g",
+    "price": 1.2
   },
   {
     "description": "Cheese, queso fresco, solid",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "23.4 g",
     "Carbohydrate, by difference": "2.96 g",
-    "Protein": "18.9 g"
+    "Protein": "18.9 g",
+    "price": 1.2
   },
   {
     "description": "Cheese, cotija, solid",
+    "category": "Dairy and Egg Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "27.2 g",
     "Protein": "23.8 g",
-    "Carbohydrate, by difference": "2.72 g"
+    "Carbohydrate, by difference": "2.72 g",
+    "price": 1.2
   },
   {
     "description": "Fish, salmon, sockeye, wild caught, raw",
+    "category": "Finfish and Shellfish Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "4.94 g",
     "Protein": "22.3 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 3.0
   },
   {
     "description": "Fish, salmon, Atlantic, farm raised, raw",
+    "category": "Finfish and Shellfish Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "13.1 g",
     "Protein": "20.3 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 3.0
   },
   {
     "description": "Fish, tilapia, farm raised, raw",
+    "category": "Finfish and Shellfish Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "2.48 g",
     "Carbohydrate, by difference": "0.0 g",
-    "Protein": "19.0 g"
+    "Protein": "19.0 g",
+    "price": 3.0
   },
   {
     "description": "Crustaceans, shrimp, farm raised, raw",
+    "category": "Finfish and Shellfish Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.801 g",
     "Protein": "15.6 g",
-    "Carbohydrate, by difference": "0.485 g"
+    "Carbohydrate, by difference": "0.485 g",
+    "price": 3.0
   },
   {
     "description": "Fish, cod, Atlantic, wild caught, raw",
+    "category": "Finfish and Shellfish Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.668 g",
     "Protein": "16.1 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 3.0
   },
   {
     "description": "Fish, catfish, farm raised, raw",
+    "category": "Finfish and Shellfish Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "7.31 g",
     "Protein": "16.5 g",
-    "Carbohydrate, by difference": "0.0 g"
+    "Carbohydrate, by difference": "0.0 g",
+    "price": 3.0
   },
   {
     "description": "Crustaceans, crab, blue swimming, lump, pasteurized, refrigerated",
+    "category": "Finfish and Shellfish Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.808 g",
     "Carbohydrate, by difference": "0.0 g",
-    "Protein": "18.6 g"
+    "Protein": "18.6 g",
+    "price": 3.0
   },
   {
     "description": "Squash, summer, green, zucchini, includes skin, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.205 g",
     "Protein": "0.984 g",
-    "Carbohydrate, by difference": "3.27 g"
+    "Carbohydrate, by difference": "3.27 g",
+    "price": 0.4
   },
   {
     "description": "Squash, summer, yellow, includes skin, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.135 g",
     "Protein": "0.891 g",
-    "Carbohydrate, by difference": "4.39 g"
+    "Carbohydrate, by difference": "4.39 g",
+    "price": 0.4
   },
   {
     "description": "Squash, winter, butternut, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.168 g",
     "Protein": "1.15 g",
-    "Carbohydrate, by difference": "10.5 g"
+    "Carbohydrate, by difference": "10.5 g",
+    "price": 0.4
   },
   {
     "description": "Squash, winter, acorn, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.182 g",
     "Protein": "1.25 g",
-    "Carbohydrate, by difference": "10.5 g"
+    "Carbohydrate, by difference": "10.5 g",
+    "price": 0.4
   },
   {
     "description": "Cabbage, bok choy, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.234 g",
     "Protein": "1.02 g",
-    "Carbohydrate, by difference": "3.51 g"
+    "Carbohydrate, by difference": "3.51 g",
+    "price": 0.4
   },
   {
     "description": "Cauliflower, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.238 g",
     "Protein": "1.64 g",
-    "Carbohydrate, by difference": "4.72 g"
+    "Carbohydrate, by difference": "4.72 g",
+    "price": 0.4
   },
   {
     "description": "Collards, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.77 g",
     "Protein": "2.97 g",
-    "Carbohydrate, by difference": "7.02 g"
+    "Carbohydrate, by difference": "7.02 g",
+    "price": 0.4
   },
   {
     "description": "Brussels sprouts, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.565 g",
     "Protein": "3.98 g",
-    "Carbohydrate, by difference": "9.62 g"
+    "Carbohydrate, by difference": "9.62 g",
+    "price": 0.4
   },
   {
     "description": "Beets, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.302 g",
     "Carbohydrate, by difference": "8.79 g",
-    "Protein": "1.69 g"
+    "Protein": "1.69 g",
+    "price": 0.4
   },
   {
     "description": "Eggplant, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.12 g",
     "Protein": "0.852 g",
-    "Carbohydrate, by difference": "5.4 g"
+    "Carbohydrate, by difference": "5.4 g",
+    "price": 0.4
   },
   {
     "description": "Tomatoes, whole, canned, solids and liquids, with salt added",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.206 g",
     "Protein": "0.868 g",
-    "Carbohydrate, by difference": "4.29 g"
+    "Carbohydrate, by difference": "4.29 g",
+    "price": 0.4
   },
   {
     "description": "Tomato, sauce, canned, with salt added",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.382 g",
     "Protein": "1.35 g",
-    "Carbohydrate, by difference": "6.33 g"
+    "Carbohydrate, by difference": "6.33 g",
+    "price": 0.4
   },
   {
     "description": "Tomato, paste, canned, without salt added",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.732 g",
     "Protein": "4.23 g",
-    "Carbohydrate, by difference": "20.2 g"
+    "Carbohydrate, by difference": "20.2 g",
+    "price": 0.4
   },
   {
     "description": "Tomatoes, crushed, canned",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.398 g",
     "Protein": "1.44 g",
-    "Carbohydrate, by difference": "7.14 g"
+    "Carbohydrate, by difference": "7.14 g",
+    "price": 0.4
   },
   {
     "description": "Tomato, puree, canned",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.265 g",
     "Protein": "1.58 g",
-    "Carbohydrate, by difference": "8.04 g"
+    "Carbohydrate, by difference": "8.04 g",
+    "price": 0.4
   },
   {
     "description": "Apricot, with skin, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.405 g",
     "Protein": "0.961 g",
-    "Carbohydrate, by difference": "10.2 g"
+    "Carbohydrate, by difference": "10.2 g",
+    "price": 0.55
   },
   {
     "description": "Melons, honeydew, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.216 g",
     "Protein": "0.531 g",
-    "Carbohydrate, by difference": "8.15 g"
+    "Carbohydrate, by difference": "8.15 g",
+    "price": 0.55
   },
   {
     "description": "Plantains, ripe, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.893 g",
     "Protein": "1.16 g",
-    "Carbohydrate, by difference": "31.0 g"
+    "Carbohydrate, by difference": "31.0 g",
+    "price": 0.55
   },
   {
     "description": "Plantains, underripe, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.685 g",
     "Protein": "1.23 g",
-    "Carbohydrate, by difference": "33.6 g"
+    "Carbohydrate, by difference": "33.6 g",
+    "price": 0.55
   },
   {
     "description": "Chia seeds, dry, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "32.9 g",
     "Protein": "17.0 g",
-    "Carbohydrate, by difference": "38.3 g"
+    "Carbohydrate, by difference": "38.3 g",
+    "price": 0.35
   },
   {
     "description": "Bulgur, dry, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "2.42 g",
     "Protein": "11.8 g",
-    "Carbohydrate, by difference": "75.9 g"
+    "Carbohydrate, by difference": "75.9 g",
+    "price": 0.35
   },
   {
     "description": "Wild rice, dry, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.7 g",
     "Protein": "12.8 g",
-    "Carbohydrate, by difference": "75.7 g"
+    "Carbohydrate, by difference": "75.7 g",
+    "price": 0.35
   },
   {
     "description": "Arugula, baby, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.325 g",
     "Protein": "1.65 g",
-    "Carbohydrate, by difference": "5.37 g"
+    "Carbohydrate, by difference": "5.37 g",
+    "price": 0.4
   },
   {
     "description": "Asparagus, green, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.216 g",
     "Protein": "1.44 g",
-    "Carbohydrate, by difference": "5.1 g"
+    "Carbohydrate, by difference": "5.1 g",
+    "price": 0.4
   },
   {
     "description": "Avocado, Hass, peeled, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "20.3 g",
     "Protein": "1.81 g",
-    "Carbohydrate, by difference": "8.32 g"
+    "Carbohydrate, by difference": "8.32 g",
+    "price": 0.55
   },
   {
     "description": "Rice, black, unenriched, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "3.44 g",
     "Protein": "7.57 g",
-    "Carbohydrate, by difference": "77.2 g"
+    "Carbohydrate, by difference": "77.2 g",
+    "price": 0.35
   },
   {
     "description": "Corn, sweet, yellow and white kernels, \u00a0fresh, raw",
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.63 g",
     "Protein": "2.79 g",
-    "Carbohydrate, by difference": "14.7 g"
+    "Carbohydrate, by difference": "14.7 g",
+    "price": 0.4
   },
   {
     "description": "Einkorn, grain, dry, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "3.81 g",
     "Protein": "15.1 g",
-    "Carbohydrate, by difference": "68.7 g"
+    "Carbohydrate, by difference": "68.7 g",
+    "price": 0.35
   },
   {
     "description": "Farro, pearled, dry, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "3.1 g",
     "Protein": "12.6 g",
-    "Carbohydrate, by difference": "72.1 g"
+    "Carbohydrate, by difference": "72.1 g",
+    "price": 0.35
   },
   {
     "description": "Fonio, grain, dry, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "1.69 g",
     "Protein": "7.17 g",
-    "Carbohydrate, by difference": "81.3 g"
+    "Carbohydrate, by difference": "81.3 g",
+    "price": 0.35
   },
   {
     "description": "Khorasan, grain, dry, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "2.8 g",
     "Protein": "14.8 g",
-    "Carbohydrate, by difference": "71.8 g"
+    "Carbohydrate, by difference": "71.8 g",
+    "price": 0.35
   },
   {
     "description": "Kiwifruit (kiwi), green, peeled, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.64 g",
     "Protein": "1.01 g",
-    "Carbohydrate, by difference": "13.8 g"
+    "Carbohydrate, by difference": "13.8 g",
+    "price": 0.55
   },
   {
     "description": "Mandarin, seedless, peeled, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.458 g",
     "Protein": "1.04 g",
-    "Carbohydrate, by difference": "13.4 g"
+    "Carbohydrate, by difference": "13.4 g",
+    "price": 0.55
   },
   {
     "description": "Mango, Tommy Atkins, peeled, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.572 g",
     "Protein": "0.562 g",
-    "Carbohydrate, by difference": "15.3 g"
+    "Carbohydrate, by difference": "15.3 g",
+    "price": 0.55
   },
   {
     "description": "Mango, Ataulfo, peeled, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.681 g",
     "Protein": "0.688 g",
-    "Carbohydrate, by difference": "17.4 g"
+    "Carbohydrate, by difference": "17.4 g",
+    "price": 0.55
   },
   {
     "description": "Corn flour, masa harina, white or yellow, dry, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "4.34 g",
     "Protein": "7.56 g",
-    "Carbohydrate, by difference": "76.7 g"
+    "Carbohydrate, by difference": "76.7 g",
+    "price": 0.35
   },
   {
     "description": "Pear, Anjou, green, with skin, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.371 g",
     "Protein": "0.312 g",
-    "Carbohydrate, by difference": "14.8 g"
+    "Carbohydrate, by difference": "14.8 g",
+    "price": 0.55
   },
   {
     "description": "Plum, black, with skin, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.282 g",
     "Protein": "0.578 g",
-    "Carbohydrate, by difference": "13.5 g"
+    "Carbohydrate, by difference": "13.5 g",
+    "price": 0.55
   },
   {
     "description": "Rice, red, unenriched, dry, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "3.44 g",
     "Protein": "8.56 g",
-    "Carbohydrate, by difference": "76.2 g"
+    "Carbohydrate, by difference": "76.2 g",
+    "price": 0.35
   },
   {
     "description": "Sorghum bran, white, unenriched, dry, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "9.26 g",
     "Protein": "11.2 g",
-    "Carbohydrate, by difference": "68.7 g"
+    "Carbohydrate, by difference": "68.7 g",
+    "price": 0.35
   },
   {
     "description": "Sorghum flour, white, pearled, unenriched, dry, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "3.24 g",
     "Protein": "10.2 g",
-    "Carbohydrate, by difference": "73.5 g"
+    "Carbohydrate, by difference": "73.5 g",
+    "price": 0.35
   },
   {
     "description": "Sorghum grain, white, pearled, unenriched, dry, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "3.26 g",
     "Protein": "10.2 g",
-    "Carbohydrate, by difference": "74.9 g"
+    "Carbohydrate, by difference": "74.9 g",
+    "price": 0.35
   },
   {
     "description": "Sorghum, whole grain, white, dry, raw",
+    "category": "Cereal Grains and Pasta",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "4.22 g",
     "Carbohydrate, by difference": "73.6 g",
-    "Protein": "10.1 g"
+    "Protein": "10.1 g",
+    "price": 0.35
   },
   {
     "description": "Plantains, overripe, raw",
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "0.99 g",
     "Protein": "1.17 g",
-    "Carbohydrate, by difference": "29.2 g"
+    "Carbohydrate, by difference": "29.2 g",
+    "price": 0.55
   },
   {
     "description": "Chicken, drumstick, meat and skin, raw",
+    "category": "Poultry Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "5.94 g",
     "Protein": "18.4 g",
-    "Carbohydrate, by difference": "-0.475 g"
+    "Carbohydrate, by difference": "-0.475 g",
+    "price": 1.9
   },
   {
     "description": "Chicken, thigh, meat and skin, raw",
+    "category": "Poultry Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "13.4 g",
     "Protein": "17.1 g",
-    "Carbohydrate, by difference": "-0.173 g"
+    "Carbohydrate, by difference": "-0.173 g",
+    "price": 1.9
   },
   {
     "description": "Chicken, wing, meat and skin, raw",
+    "category": "Poultry Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "10.6 g",
     "Protein": "18.4 g",
-    "Carbohydrate, by difference": "-0.459 g"
+    "Carbohydrate, by difference": "-0.459 g",
+    "price": 1.9
   },
   {
     "description": "Chicken, breast, meat and skin, raw",
+    "category": "Poultry Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "4.78 g",
     "Protein": "21.4 g",
-    "Carbohydrate, by difference": "-0.428 g"
+    "Carbohydrate, by difference": "-0.428 g",
+    "price": 1.9
   },
   {
     "description": "Lamb, ground, raw",
+    "category": "Lamb, Veal, and Game Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "18.6 g",
     "Protein": "17.5 g",
-    "Carbohydrate, by difference": "-0.251 g"
+    "Carbohydrate, by difference": "-0.251 g",
+    "price": 3.2
   },
   {
     "description": "Bison, ground, raw",
+    "category": "Lamb, Veal, and Game Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "8.88 g",
     "Protein": "19.9 g",
-    "Carbohydrate, by difference": "-0.15 g"
+    "Carbohydrate, by difference": "-0.15 g",
+    "price": 3.2
   },
   {
     "description": "Beef, short loin (NY strip steak), raw",
+    "category": "Beef Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "11.5 g",
     "Protein": "21.3 g",
-    "Carbohydrate, by difference": "0.221 g"
+    "Carbohydrate, by difference": "0.221 g",
+    "price": 2.5
   },
   {
     "description": "Beef,\u00a0tenderloin steak, raw",
+    "category": "Beef Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "6.46 g",
     "Protein": "21.1 g",
-    "Carbohydrate, by difference": "0.18 g"
+    "Carbohydrate, by difference": "0.18 g",
+    "price": 2.5
   },
   {
     "description": "Beef, top sirloin steak, raw",
+    "category": "Beef Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "5.71 g",
     "Protein": "22.0 g",
-    "Carbohydrate, by difference": "0.218 g"
+    "Carbohydrate, by difference": "0.218 g",
+    "price": 2.5
   },
   {
     "description": "Pork, chop, center cut, raw",
+    "category": "Pork Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "5.48 g",
     "Carbohydrate, by difference": "-0.562 g",
-    "Protein": "22.8 g"
+    "Protein": "22.8 g",
+    "price": 2.2
   },
   {
     "description": "Pork, belly, with skin, raw",
+    "category": "Pork Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
     "Total lipid (fat)": "35.8 g",
     "Protein": "15.2 g",
-    "Carbohydrate, by difference": "-0.705 g"
+    "Carbohydrate, by difference": "-0.705 g",
+    "price": 2.2
   },
   {
     "description": "Pawpaw, peeled, seeded, raw",
-    "Protein": "1.15 g"
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
+    "Protein": "1.15 g",
+    "price": 0.55
   },
   {
     "description": "Squash, pie pumpkin, peeled, seeded, raw",
-    "Protein": "0.854 g"
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
+    "Protein": "0.854 g",
+    "price": 0.4
   },
   {
     "description": "Squash, spaghetti, peeled, seeded, raw",
-    "Protein": "0.792 g"
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
+    "Protein": "0.792 g",
+    "price": 0.4
   },
   {
     "description": "Rutabaga, peeled, raw",
-    "Protein": "0.888 g"
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
+    "Protein": "0.888 g",
+    "price": 0.4
   },
   {
     "description": "Blackberries, raw",
-    "Protein": "1.53 g"
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
+    "Protein": "1.53 g",
+    "price": 0.55
   },
   {
     "description": "Tomatillos, dehusked, raw",
-    "Protein": "1.06 g"
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
+    "Protein": "1.06 g",
+    "price": 0.4
   },
   {
     "description": "Cabbage, napa, leaf, destemmed, raw",
-    "Protein": "1.06 g"
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
+    "Protein": "1.06 g",
+    "price": 0.4
   },
   {
     "description": "Leeks, bulb and greens, root removed, raw",
-    "Protein": "1.47 g"
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
+    "Protein": "1.47 g",
+    "price": 0.4
   },
   {
     "description": "Green onion, (scallion), bulb and greens, root removed, raw",
-    "Protein": "0.669 g"
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
+    "Protein": "0.669 g",
+    "price": 0.4
   },
   {
     "description": "Shallots, bulb, peeled, root removed, raw",
-    "Protein": "1.38 g"
+    "category": "Vegetables and Vegetable Products",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
+    "Protein": "1.38 g",
+    "price": 0.4
   },
   {
     "description": "Juice, prune, shelf-stable",
-    "Protein": "0.423 g"
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
+    "Protein": "0.423 g",
+    "price": 0.55
   },
   {
     "description": "Juice, pomegranate, from concentrate, shelf-stable",
-    "Protein": "0.0 g"
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
+    "Protein": "0.0 g",
+    "price": 0.55
   },
   {
     "description": "Juice, tart cherry, from concentrate, shelf-stable",
-    "Protein": "0.147 g"
+    "category": "Fruits and Fruit Juices",
+    "foodPortionValue": 100,
+    "foodPortionUnit": "g",
+    "Protein": "0.147 g",
+    "price": 0.55
   }
 ]
