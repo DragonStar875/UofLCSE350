@@ -1,10 +1,10 @@
 import pandas as pd
 
 #import userPantry
-userPantry = pd.read_csv('userPantry.csv')
+userPantry = pd.read_csv('../userPantry.csv')
 
 #import shoppingList
-shoppingList = pd.read_csv('shoppingList.csv')
+shoppingList = pd.read_csv('../shoppingList.csv')
 
 #import allGroceries
 allGroceries = pd.read_csv('allGroceries.csv')
