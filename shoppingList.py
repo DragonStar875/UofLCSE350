@@ -2,9 +2,10 @@ import csv
 
 import pandas as pd
 
-userPantry = pd.read_csv('userPantry.csv')
-shoppingList = pd.read_csv('shoppingList.csv')
-allGroceries = pd.read_csv('allGroceries.csv')
+
+# userPantry = pd.read_csv('userPantry.csv')
+# shoppingList = pd.read_csv('shoppingList.csv')
+# allGroceries = pd.read_csv('scraper/allGroceries.csv')
 
 def addItem(shoppingList, item_name, price):
     with open(shoppingList, mode='a', newline='') as file:
