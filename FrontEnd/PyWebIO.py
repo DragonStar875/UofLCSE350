@@ -2,13 +2,17 @@ import pandas as pd
 from pywebio.output import put_tabs, put_table, put_buttons, popup, put_scope, clear_scope
 import time
 from shoppingList import addItem
-
+from pywebio.output import close_popup
 
 def grocery_options(shopping_list_csv, item, price):
+    def on_add():
+        addItem(shopping_list_csv, item, price)
+        close_popup()  # This closes the popup after adding
+
     popup(f"Actions for {item}", [
         put_buttons(
             ['Add to Shopping List'],
-            onclick=[lambda: addItem(shopping_list_csv, item, price)]
+            onclick=[on_add]
         )
     ])
 
