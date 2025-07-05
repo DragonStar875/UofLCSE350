@@ -12,13 +12,13 @@ apple,0.99
 carrot,1.05
 chicken breast,6.45
 tofu,2.35
-black beans,1
+black beans,1.0
 lentils,1.2
 rice,2.4
 pasta,1.5
-broccoli,2
+broccoli,2.0
 cauliflower,2.35
-potatoes,3
+potatoes,3.0
 onions,1.3
 garlic,0.7
 olive oil,6.99
@@ -29,3 +29,6 @@ strawberries,3.99
 blueberries,4.1
 zucchini,1.8
 cucumber,1.55
+Lactaid Lactose Free 2% Reduced Fat Milk,
+bingus,
+banan,
