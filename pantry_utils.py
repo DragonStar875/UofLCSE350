@@ -1,4 +1,7 @@
 import pandas as pd
+from pywebio.input import NUMBER, input as pw_input
+from pywebio.output import put_success, clear_scope, put_error
+
 
 def load_csvs():
     userPantry = pd.read_csv('userPantry.csv')
@@ -45,6 +48,48 @@ def update_shopping_list(shoppingList, food_name):
     new_row = pd.DataFrame([{'item_name': food_name}])
     updated_list = pd.concat([shoppingList, new_row], ignore_index=True)
     return updated_list, f"{food_name} added to the shopping list."
+
+def prompt_add_qty(description, userPantry, allGroceries):
+    qty = pw_input(f"Enter quantity to add for '{description}':", type=NUMBER, required=True)
+
+    result = update_user_pantry(userPantry, allGroceries, description, qty)
+    clear_scope('main')  # Clear the old table
+
+    if isinstance(result, dict) and result.get("error"):
+        put_error(f"Error: {result['error']}", scope='main')
+    else:
+
+        put_success(result.get("success", f"Added {qty} of {description} to pantry."), scope='main')
+
+
+def update_user_pantry(userPantry, allGroceries, food_name, qty):
+    try:
+        # Match item from allGroceries
+        df = allGroceries[allGroceries['description'].str.lower().str.contains(food_name.lower())]
+        if df.empty:
+            return {"error": f"Item '{food_name}' not found in grocery list."}
+
+        item = df.iloc[0]
+        item_name = item['description']
+
+        # Try to find an existing row by item_name
+        existing = userPantry[userPantry['item_name'].str.lower() == item_name.lower()]
+
+        if not existing.empty:
+            idx = existing.index[0]
+            userPantry.at[idx, 'quantity'] += qty
+        else:
+            new_row = {
+                'item_name': item_name,
+                'quantity': qty,
+                'exp_date': '',  # or use a default like datetime.today() + timedelta(...)
+                'threshold': 0   # optionally set a default threshold
+            }
+            userPantry.loc[len(userPantry)] = new_row
+
+        return {"success": f"Updated pantry with {qty} of {item_name}."}
+    except Exception as e:
+        return {"error": str(e)}
 
 
 def get_user_pantry(userPantry):
