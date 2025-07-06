@@ -1,5 +1,5 @@
-item_name,qty,exp_date,threshold
-carrot,41,2025-09-17,17
+item_name,quantity,exp_date,threshold
+carrot,2525,2025-09-17,11
 milk,22,2025-09-03,12
 eggs,31,2025-07-11,18
 cheddar cheese,26,2025-08-11,20
