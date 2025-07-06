@@ -1,10 +1,6 @@
-from pywebio.output import (
-    put_text, put_table, put_success, put_error,
-    put_buttons, put_scope, clear_scope, use_scope
-)
 from pywebio import start_server
 from pywebio.input import input_group, input, NUMBER
-from pywebio.output import put_table, put_text, put_success, put_error, clear_scope
+from pywebio.output import (put_table, put_text, put_success, put_error, put_buttons, put_scope, use_scope, clear_scope)
 from pantry_utils import (
     load_csvs, threshold_checker, get_nutrition, get_price,
     get_shopping_list, update_shopping_list,
