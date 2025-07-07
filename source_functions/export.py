@@ -1,5 +1,4 @@
 import pandas as pd
-import sys
 
 # overwrite dataframe to csv's
 shoppingList = pd.read_csv('../shoppingList.csv')
