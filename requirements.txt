@@ -1,0 +1,16 @@
+iniconfig==2.1.0
+numpy==2.3.1
+packaging==25.0
+pandas==2.3.0
+pluggy==1.6.0
+Pygments==2.19.2
+pytest==8.4.1
+python-dateutil==2.9.0.post0
+pytz==2025.2
+pywebio==1.8.4
+six==1.17.0
+tornado==6.5.1
+tzdata==2025.2
+ua-parser==1.0.1
+ua-parser-builtins==0.18.0.post1
+user-agents==2.2.0
