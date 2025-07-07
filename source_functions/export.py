@@ -4,7 +4,6 @@ import sys
 # overwrite dataframe to csv's
 shoppingList = pd.read_csv('../shoppingList.csv')
 
-
 # export shopping list to export.csv
 def exportShoppingList():
     try:
