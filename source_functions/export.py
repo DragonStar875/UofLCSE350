@@ -11,4 +11,3 @@ def exportShoppingList():
         print("Shopping list exported!")
     except Exception as e:
         print(f"Error exporting: {e}")
-    sys.exit()
