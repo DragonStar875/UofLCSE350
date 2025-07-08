@@ -181,7 +181,7 @@ def render_set_exp():
 def render_expired_items():
     clear_scope('main')
 
-    data = get_user_pantry(userPantry)  # Make sure this returns a list of dicts with 'expiration_date'
+    data = get_user_pantry(userPantry)
 
     if not data:
         put_text("Pantry is empty.", scope='main')
