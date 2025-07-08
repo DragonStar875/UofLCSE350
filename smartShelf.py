@@ -163,6 +163,9 @@ def render_set_exp():
         else:
             put_text("No expiration dates were changed.")
 
+
+
+
 """
 
 Nutrition lookups are working now!  Woohoo!  And it checks for df['description'].contains(food_name) so cheese returns a lot of rows :D
@@ -203,6 +206,53 @@ def render_add_to_shopping():
     item = input("Enter item name to add to shopping list:")
     shoppingList, msg = update_shopping_list(shoppingList, item)
     put_success(msg, scope='main')
+
+def render_edit_shopping_list():
+    clear_scope('main')
+    inputs = []
+    name_map = {}
+
+    data = shoppingList.to_dict('records')  # Assumes shoppingList is a pandas DataFrame
+
+    for item in data:
+        safe_name = re.sub(r'\W+', '_', item['item_name'])
+        name_map[safe_name] = item['item_name']
+        inputs.append(
+            input(f"{item['item_name']} (current qty: {item['quantity']})",
+                  name=safe_name, type=NUMBER, placeholder="Leave blank to skip")
+        )
+
+    form_data = input_group("Update Shopping List Quantities", inputs)
+
+    changes_made = False
+    for safe_name, val in form_data.items():
+        original_name = name_map[safe_name]
+        if val is not None:
+            try:
+                qty_val = int(val)
+                if qty_val < 0:
+                    put_error(f"Invalid quantity for {original_name}: must be ≥ 0")
+                else:
+                    if qty_val == 0:
+                        # Remove item from shoppingList
+                        shoppingList.drop(
+                            shoppingList[shoppingList['item_name'] == original_name].index,
+                            inplace=True
+                        )
+                    else:
+                        # Update item quantity
+                        shoppingList.loc[
+                            shoppingList['item_name'] == original_name, 'quantity'
+                        ] = qty_val
+                    changes_made = True
+            except ValueError:
+                put_error(f"Invalid input for {original_name}: must be an integer")
+
+    if changes_made:
+        put_success("Shopping list updated.")
+    else:
+        put_text("No changes were made to the shopping list.")
+
 
 def render_pantry_update():
     clear_scope('main')
@@ -262,6 +312,7 @@ choice_handlers = {
     'Lookup Price': render_price_lookup,
     'Add to Shopping List': render_add_to_shopping,
     'View Shopping List': render_shopping_list,
+    'Edit Shopping List': render_edit_shopping_list,
     'Exit': exit_app
 }
 
