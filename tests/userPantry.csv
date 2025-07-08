@@ -1,0 +1,31 @@
+item_name,quantity,exp_date,threshold
+carrot,2525,2025-09-17,11
+milk,22,2025-09-03,12
+eggs,31,2025-07-11,18
+cheddar cheese,26,2025-08-11,20
+yogurt,14,2025-09-18,27
+spinach,16,2025-07-31,8
+apple,44,2025-07-29,29
+banana,44,2025-07-06,5
+bread,10,2025-08-01,18
+chicken breast,10,2025-07-26,6
+ground beef,40,2025-07-07,7
+tofu,19,2025-07-26,12
+black beans,50,2025-08-08,5
+lentils,3,2025-07-31,9
+rice,1,2025-08-10,10
+pasta,32,2025-07-07,26
+broccoli,16,2025-08-26,24
+cauliflower,41,2025-07-22,6
+potatoes,48,2025-07-11,10
+onions,27,2025-09-05,18
+garlic,12,2025-09-07,29
+olive oil,42,2025-09-20,14
+butter,33,2025-09-13,28
+cream,34,2025-08-30,20
+orange juice,1,2025-07-12,25
+strawberries,34,2025-08-29,20
+blueberries,36,2025-07-28,22
+zucchini,46,2025-07-16,9
+cucumber,2,2025-09-03,11
+peanut butter,29,2025-09-27,5
