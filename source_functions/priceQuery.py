@@ -14,4 +14,4 @@ def get_price(allGroceries, food_name):
     price = result.iloc[0]['price']
     if pd.isna(price):
         return None
-    return result
+    return price
