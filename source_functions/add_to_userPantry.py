@@ -6,9 +6,9 @@ def add_to_userPantry(userPantry, food_name, quantity):
     try:
 
         # Preliminary checks
-        if userPantry.isEmpty:
+        if userPantry.empty:
             return f'Failed to gather userPantry.csv, check for path or missing data error.'
-        if food_name not in userPantry['food_name']:
+        if food_name not in userPantry['food_name'].values:
             return f'Item not found, check your spelling. You entered: {food_name}.'
         if not isinstance(quantity, int):
             return f'The quantity you select must be an integer. You entered: {quantity}'
