@@ -69,6 +69,21 @@ def test_get_user_pantry():
     assert records[0]['item_name'] == 'Oats'
 
 
+def test_get_expired_items():
+    from pantry_utils import get_expired_items
+
+    items = [
+        {'item_name': 'Oats', 'quantity': 2, 'threshold': 1, 'exp_date': '2025-09-15'},
+        {'item_name': 'Chickpeas', 'quantity': 1, 'threshold': 2, 'exp_date': '2025-05-15'}
+    ]
+
+    expired = get_expired_items(items)
+
+    assert isinstance(expired, list)
+    assert len(expired) == 1
+    assert expired[0]['item_name'] == 'Chickpeas'
+
+
 def test_sort_user_pantry():
     from pantry_utils import sort_user_pantry
 

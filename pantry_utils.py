@@ -1,3 +1,4 @@
+from datetime import datetime
 import pandas as pd
 from pywebio.input import NUMBER, input as pw_input
 from pywebio.output import put_success, clear_scope, put_error
@@ -94,8 +95,33 @@ def update_user_pantry(userPantry, allGroceries, food_name, qty):
 def get_user_pantry(userPantry):
     return userPantry.to_dict('records')
 
+
+def get_expired_items(data):
+    # Get today's date
+    today = datetime.today().date()
+
+    # Filter expired items
+    expired = []
+    for item in data:
+        try:
+            exp_date = datetime.strptime(item['exp_date'], '%Y-%m-%d').date()
+            if exp_date < today:
+                expired.append(item)
+        except (KeyError, ValueError):
+            continue
+
+    return expired
+
 def sort_user_pantry(userPantry, sortChoice):
     return userPantry.sort_values(by=[sortChoice], ascending=False).to_dict('records')
+
+
+def export_csv(csv):
+    try:
+        csv.to_csv('export.csv', index=False)
+        return "Shopping list exported!"
+    except Exception as e:
+        return f"Error exporting: {e}"
 
 def closeout(userPantry, shoppingList):
     try:

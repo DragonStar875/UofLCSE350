@@ -4,15 +4,13 @@ from pywebio.output import (put_table, put_text, put_success, put_error, put_but
 from pantry_utils import (
     load_csvs, threshold_checker, get_nutrition, get_price,
     get_shopping_list, update_shopping_list,
-    get_user_pantry, closeout, update_user_pantry, prompt_add_qty, sort_user_pantry
+    get_user_pantry, closeout, update_user_pantry,
+    sort_user_pantry, export_csv, get_expired_items
 )
 import re
 
-
 # === Load data ===
 userPantry, shoppingList, allGroceries = load_csvs()
-
-
 
 #
 # def render_pantry():
@@ -180,7 +178,24 @@ def render_set_exp():
             put_text("No expiration dates were changed.")
 
 
+def render_expired_items():
+    clear_scope('main')
 
+    data = get_user_pantry(userPantry)
+
+    if not data:
+        put_text("Pantry is empty.", scope='main')
+        return
+
+    expired = get_expired_items(data)
+
+    with use_scope('main'):
+        if not expired:
+            put_text("No expired items.")
+            return
+
+        put_text("Expired Items:")
+        put_table([list(expired[0].keys())] + [list(d.values()) for d in expired])
 
 """
 
@@ -288,7 +303,6 @@ def render_pantry_update():
         if isinstance(result, dict) and result.get("error"):
             put_error(f"Error: {result['error']}", scope='main')
         else:
-            result
             put_success(f"Added {qty} of {item['description']} to pantry.", scope='main')
         render_pantry()
 
@@ -306,6 +320,14 @@ def render_pantry_update():
             for item in matches
         ]
         put_table([headers] + rows)
+
+
+def export_shopping_list():
+    msg = export_csv(shoppingList)
+    if msg.startswith("Error"):
+        put_error(msg)
+    else:
+        put_success(msg)
 
 def exit_app():
     msg = closeout(userPantry, shoppingList)
@@ -328,6 +350,8 @@ choice_handlers = {
     'Add to Shopping List': render_add_to_shopping,
     'View Shopping List': render_shopping_list,
     'Edit Shopping List': render_edit_shopping_list,
+    'Export Shopping List': export_shopping_list,
+    'Expired Items': render_expired_items,
     'Exit': exit_app
 }
 
