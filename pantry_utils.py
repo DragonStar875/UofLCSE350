@@ -95,6 +95,8 @@ def update_user_pantry(userPantry, allGroceries, food_name, qty):
 def get_user_pantry(userPantry):
     return userPantry.to_dict('records')
 
+def sort_user_pantry(userPantry, sortChoice):
+    return userPantry.sort_values(by=[sortChoice], ascending=False).to_dict('records')
 
 def closeout(userPantry, shoppingList):
     try:

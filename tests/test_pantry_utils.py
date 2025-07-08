@@ -47,3 +47,33 @@ def test_threshold_checker_above_threshold():
     ])
     result = threshold_checker(pantry_df)
     assert result == []
+
+def test_get_user_pantry():
+    from pantry_utils import get_user_pantry
+
+    df = pd.DataFrame([
+        {'item_name': 'Oats', 'quantity': 2, 'threshold': 1},
+        {'item_name': 'Chickpeas', 'quantity': 1, 'threshold': 2}
+    ])
+
+    records = get_user_pantry(df)
+
+    assert isinstance(records, list)
+    assert len(records) == 2
+    assert records[0]['item_name'] == 'Oats'
+
+
+def test_sort_user_pantry():
+    from pantry_utils import sort_user_pantry
+
+    df = pd.DataFrame([
+        {'item_name': 'Oats', 'quantity': 2, 'threshold': 1},
+        {'item_name': 'Chickpeas', 'quantity': 1, 'threshold': 2}
+    ])
+
+    sorted_records = sort_user_pantry(df, 'item_name')
+
+    assert isinstance(sorted_records, list)
+    assert len(sorted_records) == 2
+    assert sorted_records[0]['item_name'] == 'Oats'
+
