@@ -190,9 +190,8 @@ def render_nutrition():
     clear_scope('main')
     food = input("Enter item name to get nutrition:")
     result = get_nutrition(allGroceries, food)
-    if not result:
-        put_error("Item not found in groceries.", scope='main')
-    elif isinstance(result, dict) and result.get("error"):
+
+    if isinstance(result, dict) and result.get("error"):
         put_error(f"Error: {result['error']}", scope='main')
     else:
         put_table([list(result[0].keys())] + [list(r.values()) for r in result], scope='main')

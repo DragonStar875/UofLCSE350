@@ -24,6 +24,12 @@ def test_get_nutrition_exact_match():
     assert isinstance(result, list)
     assert len(result) == 1
     assert result[0]['description'] == 'Hummus, commercial'
+    assert result[0]['calories'] == 166
+
+    result = get_nutrition(mock_data, 'Gold')
+    assert isinstance(result, dict)
+    assert 'error' in result
+    assert result['error'] == "Item 'Gold' cannot be found."
 
 
 def test_get_nutrition_partial_match():
