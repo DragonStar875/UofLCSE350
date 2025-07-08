@@ -7,7 +7,7 @@ userPantry = pd.read_csv('userPantry.csv')
 allGroceries = pd.read_csv('allGroceries.csv')
 
 def get_price(allGroceries, food_name):
-    result = allGroceries.loc[allGroceries['item_name'] == food_name, ['item_name', 'quantity', 'price']]
+    result = allGroceries.loc[allGroceries['item_name'] == food_name, ['food_name', 'quantity', 'price']]
     if result.empty:
         return None
 
