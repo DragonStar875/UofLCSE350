@@ -21,11 +21,10 @@ def get_nutrition(allGroceries, food_name):
     try:
         df = allGroceries[allGroceries['description'].str.lower().str.contains(food_name.lower())]
         if df.empty:
-            return None
+            return {"error": f"Item '{food_name}' cannot be found."}
         return df.to_dict('records')
     except Exception as e:
         return {"error": str(e)}
-
 
 def get_price(allGroceries, food_name):
     try:
