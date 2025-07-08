@@ -1,10 +1,10 @@
 from pywebio import start_server
-from pywebio.input import input_group, input, NUMBER
+from pywebio.input import input_group, input, NUMBER, select, actions
 from pywebio.output import (put_table, put_text, put_success, put_error, put_buttons, put_scope, use_scope, clear_scope)
 from pantry_utils import (
     load_csvs, threshold_checker, get_nutrition, get_price,
     get_shopping_list, update_shopping_list,
-    get_user_pantry, closeout, update_user_pantry, prompt_add_qty
+    get_user_pantry, closeout, update_user_pantry, prompt_add_qty, sort_user_pantry
 )
 import re
 
@@ -22,6 +22,8 @@ userPantry, shoppingList, allGroceries = load_csvs()
 #
 #     put_text("Current Pantry:", scope='main')
 #     put_table([list(data[0].keys())] + [list(d.values()) for d in data], scope='main')
+
+
 def render_pantry():
     clear_scope('main')
 
@@ -32,8 +34,22 @@ def render_pantry():
         return
 
     with use_scope('main'):
+        # Ask user if they want to sort
+        user_action = actions(label="Choose an action", buttons=[
+            {'label': 'View Pantry', 'value': 'view'},
+            {'label': 'Sort Pantry', 'value': 'sort'}
+        ])
+
+        if user_action == 'sort':
+            sort_column = select("Select column to sort by:", options=list(data[0].keys()))
+            sorted_data = sort_user_pantry(userPantry, sort_column)
+            data_to_display = sorted_data
+            put_text(f"Pantry sorted by: {sort_column}")
+        else:
+            data_to_display = data
+
         put_text("Current Pantry:")
-        put_table([list(data[0].keys())] + [list(d.values()) for d in data])
+        put_table([list(data_to_display[0].keys())] + [list(d.values()) for d in data_to_display])
 
 def render_edit_pantry():
         clear_scope('main')
