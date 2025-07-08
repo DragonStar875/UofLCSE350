@@ -10,7 +10,7 @@ import pandas as pd
 @pytest.fixture
 def mock_database():
     data = {
-        'item_name': ['apple', 'banana', 'carrot', 'eggs', 'ham', 'cream', 'rice', 'spinach', 'tomatoes', 'watermelon', 'yogurt'],
+        'food_name': ['apple', 'banana', 'carrot', 'eggs', 'ham', 'cream', 'rice', 'spinach', 'tomatoes', 'watermelon', 'yogurt'],
         'price': [1.30, 0.97, None, 0.60, 1.74, 0.36, 0.25, 0.48, 0.41, None, 0.89],
         'category': ['produce', 'produce', 'produce', 'dairy', 'meat', 'dairy', 'grains', 'produce', 'produce', 'produce', 'dairy'],
         'quantity': [2, 4, 2, 12, 1, 12, 2, 3, 4, 1, 1]
