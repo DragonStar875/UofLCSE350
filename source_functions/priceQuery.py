@@ -10,4 +10,8 @@ def get_price(allGroceries, food_name):
     result = allGroceries.loc[allGroceries['item_name'] == food_name, ['food_name','quantity', 'price']]
     if result.empty:
         return "Item cannot be found"
+
+    price = result.iloc[0]['price']
+    if pd.isna(price):
+        return None
     return result
