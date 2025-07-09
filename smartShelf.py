@@ -367,6 +367,7 @@ def handle_choice(choice):
 def pantry_main():
     put_buttons(list(choice_handlers.keys()), onclick=handle_choice)
     put_scope('main')  # output scope for all dynamic sections
+    render_expired_items()
 
 
 if __name__ == '__main__':
