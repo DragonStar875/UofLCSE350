@@ -8,7 +8,7 @@ import pytest
 def allGroceries_csv(tmp_path):
     # Define the path for the sourceCSV directory and the CSV file
     source_csv_dir = tmp_path / "sourceCSV"
-    all_groceries_file = source_csv_dir / "allGroceries_test_data.csv"
+    all_groceries_file = source_csv_dir / "allGroceries.csv"
 
     # Create the sourceCSV directory if it doesn't exist
     source_csv_dir.mkdir(parents=True, exist_ok=True)
