@@ -11,7 +11,7 @@ def set_critical(userPantry, food_name, critical_value):
     try:
 
         # Preliminary checks
-        if userPantry.isEmpty:
+        if userPantry.empty:
             return f'Failed to gather userPantry.csv, check for path or missing data error.'
         if not isinstance(critical_value, int):
             return "Error: Please ensure that your critical value is an integer."
@@ -24,12 +24,13 @@ def set_critical(userPantry, food_name, critical_value):
         if critical_value > 100:
             return "Error: Please ensure that your critical value is less than 100."
 
-       # Outputs
+
         userPantry.loc[userPantry['item_name'] == food_name, 'threshold'] = critical_value
-        ## check_critical_values()
+
 
         return f"Threshold for {food_name} was set to {critical_value}, checking critical values."
 
     except Exception as e:
 
         print(f"Something went wrong during the critical value setting process: {e}")
+        return e
