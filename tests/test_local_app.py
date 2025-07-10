@@ -5,11 +5,10 @@ import pytest
 import sys
 import os
 
-# Ensure we can import from the parent directory
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from pywebio import start_server
-import smartShelf  # Assumes smartShelf.pantry_main exists
+import smartShelf
 
 
 def is_port_open(host, port):
@@ -26,7 +25,6 @@ def test_pantry_main_server_starts():
     )
     server_thread.start()
 
-    # Wait briefly for the server to spin up
-    time.sleep(2.0)  # 2 seconds is usually enough; 10s is overkill unless debugging
+    time.sleep(5.0)
 
     assert is_port_open("localhost", 8080), "Server failed to start on port 8080"
