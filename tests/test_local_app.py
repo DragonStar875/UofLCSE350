@@ -1,21 +1,30 @@
+import threading
+import time
+import socket
+import pytest
 import sys
 import os
-from unittest.mock import patch
 
-# Add parent directory to path to import smartShelf
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-import pantry_utils
+
+from pywebio import start_server
 import smartShelf
 
 
-def test_smartShelf_runs_without_crashing():
-    """Basic smoke test: ensure smartShelf app launches main function without errors."""
-    with patch('pywebio.output.put_buttons'), \
-         patch('pywebio.output.put_scope'), \
-         patch('smartShelf.start_server') as mock_start_server:
-        
+def is_port_open(host, port):
+    """Check if the port is open (i.e., server is running)."""
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        return s.connect_ex((host, port)) == 0
 
-        # Simulate calling main app manually (to avoid __main__ block)
-        smartShelf.pantry_main()
 
-        assert mock_start_server.called or callable(smartShelf.pantry_main)
+def test_pantry_main_server_starts():
+    # Use lambda to wrap start_server call to prevent argument unpacking issues
+    server_thread = threading.Thread(
+        target=lambda: start_server(smartShelf.pantry_main, port=8080, open_browser=False),
+        daemon=True
+    )
+    server_thread.start()
+
+    time.sleep(5.0)
+
+    assert is_port_open("localhost", 8080), "Server failed to start on port 8080"
