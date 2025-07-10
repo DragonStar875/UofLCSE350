@@ -12,15 +12,6 @@ import re
 # === Load data ===
 userPantry, shoppingList, allGroceries = load_csvs()
 
-#
-# def render_pantry():
-#     clear_scope('main')
-#
-#     data = get_user_pantry(userPantry)
-#
-#     put_text("Current Pantry:", scope='main')
-#     put_table([list(data[0].keys())] + [list(d.values()) for d in data], scope='main')
-
 
 def render_pantry():
     clear_scope('main')
