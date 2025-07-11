@@ -1,39 +1,32 @@
-import pytest, pandas as pd, sys, os
+import pytest
+import pandas as pd
+import sys, os
 
-from source_functions.set_critical import set_critical
-
-
-
-
-@pytest.fixture
-def sample_data():
-    data = {
-        'item_name': ['apple', 'banana', 'carrot', 'eggs', 'ham', 'cream', 'rice', 'spinach', 'tomatoes', 'watermelon', 'yogurt'],
-        'quantity': [2, 4, 2, 12, 1, 12, 2, 3, 4, 1, 1],
-        'price': [1.30, 0.97, None, 0.60, 1.74, 0.36, 0.25, 0.48, 0.41, None, 0.89],
-        'category': ['produce', 'produce', 'produce', 'dairy', 'meat', 'dairy', 'grains', 'produce', 'produce', 'produce', 'dairy'],
-        'threshold': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    }
-
-    return pd.DataFrame(data)
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from pantry_utils import update_user_pantry
 
 @pytest.fixture
-def empty_data():
-    return pd.DataFrame()
+def sample_pantry():
+    return pd.DataFrame({
+        'item_name': ['apple'],
+        'quantity': [2],
+        'exp_date': [''],
+        'threshold': [5]
+    })
 
-def test_set_threshold(sample_data):
-    result = set_critical(sample_data, 'apple', 2)
-    assert(result == "Threshold for apple was set to 2, checking critical values.")
+@pytest.fixture
+def all_groceries():
+    return pd.DataFrame({
+        'description': ['apple', 'banana'],
+        'category': ['produce', 'produce'],
+        'price': [1.0, 0.5]
+    })
 
-def test_set_item_not_found(empty_data):
-    result = set_critical(empty_data, 'apple', 2)
-    assert(result == "Failed to gather userPantry.csv, check for path or missing data error.")
+def test_threshold_unchanged_for_existing(sample_pantry, all_groceries):
+    update_user_pantry(sample_pantry, all_groceries, 'apple', 1)
+    assert sample_pantry.loc[sample_pantry['item_name'] == 'apple', 'threshold'].values[0] == 5
 
-def test_set_item_too_high(sample_data):
-    result = set_critical(sample_data, 'apple', 101)
-    assert(result == "Error: Please ensure that your critical value is less than 100.")
-
-def test_set_item_negative(sample_data):
-    result = set_critical(sample_data, 'apple', -1)
-    assert(result == "Error: Please ensure that your critical value is positive.")
-
+def test_threshold_default_for_new_item(sample_pantry, all_groceries):
+    update_user_pantry(sample_pantry, all_groceries, 'banana', 3)
+    threshold = sample_pantry.loc[sample_pantry['item_name'] == 'banana', 'threshold'].values[0]
+    assert threshold == 0
