@@ -1,22 +1,23 @@
 import json
 import csv
 
-# Load structured USDA JSON
 with open("FoodData_Central_foundation_food_json_2025-04-24.json", "r") as f:
     data = json.load(f)
 
-# Extract top-level list of foods
+# first key is FoundationFoods, everything else is a subdict
 foods = data.get("FoundationFoods", [])
 if not isinstance(foods, list):
     raise ValueError("Expected 'FoundationFoods' to be a list.")
 
-# Nutrients of interest
+# protein carbs fats
 target_nutrients = {
     "Protein",
     "Carbohydrate, by difference",
     "Total lipid (fat)"
 }
 
+
+#auto assign price to the price column by category
 price_by_category = {
     "Vegetables and Vegetable Products": 0.40,
     "Fruits and Fruit Juices": 0.55,
@@ -38,8 +39,10 @@ price_by_category = {
     "Beverages": 0.75
 }
 
+#empty list to hold our data before writing
 filtered_data = []
 
+#minor error-handling on import
 for food in foods:
     entry = {
         "description": food.get("description", "Unknown"),
@@ -56,8 +59,8 @@ for food in foods:
             unit = nutrient.get("nutrient", {}).get("unitName", "")
             entry[name] = f"{amount} {unit}" if amount is not None else "N/A"
 
-    # Handle foodPortions gracefully
-    # Handle foodPortions gracefully or default to 100g
+
+    # we get the measureUnit key:value or we just default to lab standard 100g
     portions = food.get("foodPortions", [])
     if portions:
         first_portion = portions[0]
@@ -71,7 +74,7 @@ for food in foods:
         entry["foodPortionUnit"] = "g"
 
 
-    # Extract category from inputFoods[3] if available
+    # extract category from inputFoods[3] if available
     try:
         input_foods = food.get("inputFoods", [])
         if len(input_foods) > 3:
@@ -82,7 +85,7 @@ for food in foods:
         pass
 
 
-    # Save entry if it has any target nutrient
+    #if it has carbs, or protein, or fat, write it to filtered_data
     if any(n in entry for n in target_nutrients):
         filtered_data.append(entry)
 

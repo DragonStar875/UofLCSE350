@@ -14,7 +14,6 @@ def print_keys(data, indent=0):
         for item in data:
             print_keys(item, indent)
 
-# Example usage with a file
 with open("hummus.json") as f:
     json_data = json.load(f)
 
