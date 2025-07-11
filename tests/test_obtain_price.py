@@ -26,7 +26,7 @@ def test_price_found(mock_database):
 def test_price_missing(mock_database):
     result = get_price(mock_database, 'carrot')
     assert isinstance(result, list)
-    assert result[0]['price'] is None
+    assert pd.isna(result[0]['price'])
 
 def test_price_not_found(mock_database):
     result = get_price(mock_database, 'tofu')
